@@ -1,0 +1,27 @@
+//TODO: move this to ion-search.scss file
+.input-search-padded {
+	background: #0073CF;
+	margin: 0;
+	padding: 0px 25px !important;
+	max-height: 105px;
+
+	> h4 {
+		color: $light;
+	}
+
+	> label {
+		margin-bottom: 15px !important;
+	}
+
+	.list {
+		position: fixed;
+		margin-left: -25px;
+		width: 100%;
+		z-index: 1;
+
+		.item {
+			color: #0073CF;
+			padding-left: 25px;
+		}
+	}
+}

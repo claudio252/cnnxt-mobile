@@ -1,0 +1,13 @@
+<ion-view view-title="">
+  <ion-content padding="true">
+    <img class="padding-left" src="img/global.png" />
+    <a class="button button-block button-stable" ng-repeat="chat in chats" href="#/tab/chats/{{chat.id}}">
+      {{ chat.name }}
+    </a>
+    <!-- <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <h2>{{chat.name}}</h2>
+      </ion-item>
+    </ion-list> -->
+  </ion-content>
+</ion-view>

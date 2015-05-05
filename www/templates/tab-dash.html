@@ -1,0 +1,24 @@
+
+<ion-view view-title="">
+  <ion-content>
+    <img class="padding" src="img/global.png" />
+
+      <!-- <div class="list list-inset input-search-padded">
+        <h4>Where do you want to go?</h4>
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Search">
+        </label>
+
+      </div> -->
+      <ion-search class="" message="Where do you want to go?" placeholder="Search a user" min-length="1" model="users" source="getUsersByName(str)"></ion-search>
+      <!-- <div class="list">
+        <div ng-repeat="user in users" class="item">
+          {{user.name}}
+        </div>
+      </div> -->
+      <div class="padding">
+        <button class="button button-block button-positive">Browse Directory</button>
+      </div>
+  </ion-content>
+</ion-view>

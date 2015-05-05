@@ -1,0 +1,2589 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"selected",
+				"selectedType"
+			],
+			[
+				"defaul",
+				"defaultHeaders['Authorization"
+			],
+			[
+				"confi",
+				"configuration"
+			],
+			[
+				"$stat",
+				"$stateParams"
+			],
+			[
+				"$state",
+				"$stateParams〔argument〕"
+			],
+			[
+				"pro",
+				"promise"
+			],
+			[
+				"re",
+				"reject"
+			],
+			[
+				"use",
+				"userId"
+			],
+			[
+				"exp",
+				"expiresAt"
+			],
+			[
+				"red",
+				"redirect_uri"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"appl",
+				"apply(${0:thisArg})	Function"
+			],
+			[
+				"user",
+				"userWorld"
+			],
+			[
+				"sele",
+				"selectedProfile"
+			],
+			[
+				"se",
+				"selectedDevices"
+			],
+			[
+				"Avatar",
+				"AvatarProfiles"
+			],
+			[
+				"devce",
+				"deviceProfiles"
+			],
+			[
+				"MS",
+				"MS_PER_MINUTE"
+			],
+			[
+				"Form",
+				"FormatService〔argument〕"
+			],
+			[
+				"tim",
+				"timeUTC"
+			],
+			[
+				"visual",
+				"visualizations"
+			],
+			[
+				"get",
+				"getDisplayValue"
+			],
+			[
+				"isMob",
+				"isMobileBrowser"
+			],
+			[
+				"Browse",
+				"BrowserService〔argument〕"
+			],
+			[
+				"navi",
+				"navigator〔variable〕"
+			],
+			[
+				"navig",
+				"navigatorAgent"
+			],
+			[
+				"Brow",
+				"BrowserService〔argument〕"
+			],
+			[
+				"is",
+				"isMobile"
+			],
+			[
+				"new",
+				"newName〔variable〕"
+			],
+			[
+				"to",
+				"toHaveBeenCalled"
+			],
+			[
+				"aut",
+				"automation"
+			],
+			[
+				"au",
+				"automation"
+			],
+			[
+				"job",
+				"jobsMock〔variable〕"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"un",
+				"undeletedDevices"
+			],
+			[
+				"event",
+				"eventsPromise"
+			],
+			[
+				"pol",
+				"pollEvents"
+			],
+			[
+				"selec",
+				"selectedDevices"
+			],
+			[
+				"star",
+				"startPollEvents"
+			],
+			[
+				"autom",
+				"automation〔argument〕"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"automa",
+				"automationDate"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"eve",
+				"eventDefinition"
+			],
+			[
+				"act",
+				"activities"
+			],
+			[
+				"nav",
+				"navStatus"
+			],
+			[
+				"$WOR",
+				"$worldsNav"
+			],
+			[
+				"bowe",
+				"bower_components"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"state",
+				"stateNames"
+			],
+			[
+				"stat",
+				"stateName〔variable〕"
+			],
+			[
+				"sta",
+				"stateNames"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"$worlds",
+				"$worldsNav〔argument〕"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"fro",
+				"fromParams〔argument〕"
+			],
+			[
+				"from",
+				"fromState〔argument〕"
+			],
+			[
+				"$",
+				"$sidebar"
+			],
+			[
+				"worlds",
+				"worldsnav"
+			],
+			[
+				"$wolr",
+				"$worldsNav"
+			],
+			[
+				"$wol",
+				"$worldsNav"
+			],
+			[
+				"$worl",
+				"$worldsNav"
+			],
+			[
+				"wor",
+				"worldsnav"
+			],
+			[
+				"proce",
+				"processingJobs"
+			],
+			[
+				"preve",
+				"preventClose"
+			],
+			[
+				"proP",
+				"profilePromises"
+			],
+			[
+				"device",
+				"deviceProfiles"
+			],
+			[
+				"fir",
+				"firmware"
+			],
+			[
+				"modal",
+				"modalPromise"
+			],
+			[
+				"profile",
+				"profileHref"
+			],
+			[
+				"sel",
+				"selectedDevices  (variable)"
+			],
+			[
+				"avata",
+				"avatarProfile"
+			],
+			[
+				"acti",
+				"activitiesPromise"
+			],
+			[
+				"update",
+				"update_firmware"
+			],
+			[
+				"activi",
+				"activitiesPromise"
+			],
+			[
+				"updae",
+				"update_firmware"
+			],
+			[
+				"upda",
+				"updateFirmware"
+			],
+			[
+				"upd",
+				"updateFirmware"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"set",
+				"settingsModule"
+			],
+			[
+				"pre",
+				"previousName"
+			],
+			[
+				"fin",
+				"finally"
+			],
+			[
+				"ava",
+				"avatarDefinitionId"
+			],
+			[
+				"avatar",
+				"avatarDefinition"
+			],
+			[
+				"settin",
+				"settingsModule"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"$loca",
+				"$location	AngularJS"
+			],
+			[
+				"Avat",
+				"AvatarProfiles"
+			],
+			[
+				"mod",
+				"modalPromise"
+			],
+			[
+				"app",
+				"applyProfile"
+			],
+			[
+				"profi",
+				"profile"
+			],
+			[
+				"$modal",
+				"$modalInstance"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"unk",
+				"unknownFirmware"
+			],
+			[
+				"button",
+				"buttonVisible"
+			],
+			[
+				"d",
+				"dynPropFirmware"
+			],
+			[
+				"_",
+				"_$httpBackend_"
+			],
+			[
+				"member",
+				"membersList"
+			],
+			[
+				"invite",
+				"inviteMembers"
+			],
+			[
+				"mem",
+				"membersList"
+			],
+			[
+				"members",
+				"membersPromise"
+			],
+			[
+				"ge",
+				"getUserById"
+			],
+			[
+				"avatarui",
+				"avataruidef"
+			],
+			[
+				"be",
+				"toBeUndefined"
+			],
+			[
+				"toBe",
+				"toBeUndefined"
+			],
+			[
+				"prop",
+				"properties"
+			],
+			[
+				"coll",
+				"collapsable"
+			],
+			[
+				"http",
+				"httpBackend"
+			],
+			[
+				"$http",
+				"$httpBackend	AngularJS"
+			],
+			[
+				"collapsable",
+				"collapsableData"
+			],
+			[
+				"prev",
+				"previousAttributes"
+			],
+			[
+				"change",
+				"changedAttributes"
+			],
+			[
+				"text",
+				"text-transform: "
+			],
+			[
+				"mode",
+				"modifiedAttributes"
+			],
+			[
+				"go",
+				"goToNextStep"
+			],
+			[
+				"succ",
+				"success_message"
+			],
+			[
+				"success",
+				"successfully"
+			],
+			[
+				"getSc",
+				"getSuccessStep"
+			],
+			[
+				"last",
+				"lastIndexOf"
+			],
+			[
+				"got",
+				"goToNextStep"
+			],
+			[
+				"init",
+				"initializeSteps"
+			],
+			[
+				"goT",
+				"goToPreviousStep"
+			],
+			[
+				"font",
+				"font-weight: "
+			],
+			[
+				"erro",
+				"errorElement"
+			],
+			[
+				"Renam",
+				"RenameAvatar"
+			],
+			[
+				"conten",
+				"contentView"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "wel",
+		"selected_items":
+		[
+			[
+				"wel",
+				"Snippet: bs3-well"
+			],
+			[
+				"ro",
+				"Snippet: bs3-row"
+			],
+			[
+				"well",
+				"Snippet: bs3-well-sm"
+			],
+			[
+				"jum",
+				"Snippet: bs3-jumbotron"
+			],
+			[
+				"row",
+				"Snippet: bs3-row"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gpc",
+				"Git: Push Current Branch"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"q",
+				"Git: Quick Add"
+			],
+			[
+				"gp",
+				"Git: Push Current Branch"
+			],
+			[
+				"gq",
+				"Git: Quick Add"
+			],
+			[
+				"gqa",
+				"Git: Quick Add"
+			],
+			[
+				"gb",
+				"Git: Blame"
+			],
+			[
+				"gitbla",
+				"Git: Blame"
+			],
+			[
+				"git ble",
+				"Git: Blame"
+			],
+			[
+				"gitc",
+				"Git: Checkout"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"col",
+				"Snippet: bs3-col-2"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"gitb",
+				"Git: Blame"
+			],
+			[
+				"ga",
+				"Git: Add Remote"
+			],
+			[
+				"form",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"html",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"gC",
+				"Git: Commit"
+			],
+			[
+				"for",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"gpcb",
+				"Git: Push Current Branch"
+			],
+			[
+				"gr",
+				"Git: Remote"
+			],
+			[
+				"GC",
+				"Git: Commit"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"git ad",
+				"Git: Quick Add"
+			],
+			[
+				"git pc",
+				"Git: Push Current Branch"
+			],
+			[
+				"fpr",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"bea",
+				"SassBeautify"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"gpsc",
+				"Git: Push Current Branch"
+			],
+			[
+				"git psc",
+				"Git: Push Current Branch"
+			],
+			[
+				"gc	",
+				"Git: Commit"
+			],
+			[
+				"gpcbn",
+				"Git: Push Current Branch"
+			],
+			[
+				"gps",
+				"Git: Push Current Branch"
+			],
+			[
+				"gcp",
+				"Git: Push Current Branch"
+			],
+			[
+				"gco",
+				"Git: Commit"
+			],
+			[
+				"GQA",
+				"Git: Quick Add"
+			],
+			[
+				"git ps",
+				"Git: Push Current Branch"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git pcb",
+				"Git: Push Current Branch"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"giqa",
+				"Git: Quick Add"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git qa",
+				"Git: Quick Add"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"g q a",
+				"Git: Quick Add"
+			],
+			[
+				"git p",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitps",
+				"Git: Push Current Branch"
+			],
+			[
+				"qa",
+				"Git: Quick Add"
+			],
+			[
+				"qu",
+				"Git: Quick Add"
+			],
+			[
+				"git pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"git aq",
+				"Git: Quick Add"
+			],
+			[
+				"git q",
+				"Git: Quick Add"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git pusc",
+				"Git: Push Current Branch"
+			],
+			[
+				"git quick",
+				"Git: Quick Add"
+			],
+			[
+				"git a",
+				"Git: Quick Add"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"qui",
+				"Git: Quick Add"
+			],
+			[
+				"gitqa",
+				"Git: Quick Add"
+			],
+			[
+				"gtis",
+				"Git: Status"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"GQ",
+				"Git: Quick Add"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"GIT comm",
+				"Git: Commit"
+			],
+			[
+				"git qc",
+				"Git: Quick Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git ch",
+				"Git: Checkout"
+			],
+			[
+				"git che",
+				"Git: Checkout"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git mer",
+				"Git: Merge"
+			],
+			[
+				"git chec",
+				"Git: Checkout"
+			],
+			[
+				"git pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git check",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git fet",
+				"Git: Fetch"
+			],
+			[
+				"git remo",
+				"Git: Add Remote"
+			],
+			[
+				"git re",
+				"Git: Remote"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"quick",
+				"Git: Quick Add"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Stash"
+			],
+			[
+				"git  ch",
+				"Git: Checkout"
+			],
+			[
+				"Git Comp",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"Git",
+				"Git: Diff"
+			],
+			[
+				"Compare",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"Gca",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"Git Compa",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"gqs",
+				"Git: Quick Status"
+			],
+			[
+				"QuickS",
+				"Git: Quick Status"
+			],
+			[
+				"Git Stat",
+				"Git: Quick Status"
+			],
+			[
+				"Git S",
+				"Git: Status"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gitad",
+				"Git: Quick Add"
+			],
+			[
+				"GIT STA",
+				"Git: Status"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"git stas",
+				"Git: Pop Stash"
+			],
+			[
+				"git swit",
+				"Git: Switch Repo"
+			],
+			[
+				"Remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Git pul",
+				"Git: Pull"
+			],
+			[
+				"Git Che",
+				"Git: Checkout"
+			],
+			[
+				"Git sta",
+				"Git: Status"
+			],
+			[
+				"GitChec",
+				"Git: Checkout Current File"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"List",
+				"Package Control: List Packages"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Remo e",
+				"Package Control: Remove Package"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"g",
+				"Git: Checkout"
+			],
+			[
+				"gitch",
+				"Git: Checkout"
+			],
+			[
+				"Packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import os; os.system('git --version')",
+			"git",
+			"ginit",
+			"Git Version;",
+			"Git Version",
+			"Git: Version;",
+			"Git: Version",
+			"Git: version",
+			"Git:",
+			"Git",
+			"SublimeGit: Add License",
+			"SublimeGit:",
+			"SublimeGit",
+			"git",
+			"Git",
+			"Git: Version",
+			"?",
+			"/help",
+			"ls",
+			"cls",
+			"help",
+			"clear()",
+			"clear",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile"
+	],
+	"file_history":
+	[
+		"/Users/ccuellar/Projects/connexient-html5/bower_components/animate.less/source/bounce.less",
+		"/Users/ccuellar/Projects/connexient-html5/bower_components/animate.less/animate.less",
+		"/Users/ccuellar/Projects/connexient-html5/conn-html5.sublime-project",
+		"/Users/ccuellar/Projects/connexient-html5/bower.json",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/vendor.less",
+		"/Users/ccuellar/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/components/things/list/list.controller.js",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/main/main.controller.spec.js",
+		"/Users/ccuellar/Projects/connexient-html5/src/index.html",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/index.js",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/components/things/list/list.html",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/main/main.html",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/main/main.controller.js",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/index.less",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/components/navbar/navbar.html",
+		"/Users/ccuellar/Projects/connexient-html5/src/app/components/navbar/navbar.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/worlds-nav/worldsNav.less",
+		"/Users/ccuellar/rdm-angular/src/components/worlds-nav/worldsNav.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/onboard/onboarding.wizard.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/onboard/add.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDetails.html",
+		"/Users/ccuellar/rdm-angular/gulpfile.js",
+		"/Users/ccuellar/rdm-angular/gulp/build.js",
+		"/Users/ccuellar/rdm-angular/src/components/avatars/avatarUiDefinitions.service.js",
+		"/Users/ccuellar/rdm-angular/src/assets/json/minimal_ui_definition.json",
+		"/Users/ccuellar/rdm-angular/src/components/login/login.controller.js",
+		"/Users/ccuellar/rdm-angular/src/app/interceptors.js",
+		"/Users/ccuellar/rdm-angular/src/app/run.js",
+		"/Users/ccuellar/rdm-angular/src/components/session/session.service.js",
+		"/Users/ccuellar/rdm-angular/src/components/worlds/worlds.service.js",
+		"/Users/ccuellar/rdm-angular/src/app/config.js",
+		"/Users/ccuellar/rdm-angular/src/app/rdmAngular.js",
+		"/Users/ccuellar/rdm-angular/src/app/constants.js",
+		"/Users/ccuellar/rdm-angular/src/components/circle/circle.directive.js",
+		"/Users/ccuellar/rdm-angular/src/app/global/global.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/eventDefinitions.service.js",
+		"/Users/ccuellar/rdm-angular/test/unit/login.js",
+		"/Users/ccuellar/rdm-angular/package.json",
+		"/Users/ccuellar/rdm-angular/rdm-angular.sublime-project",
+		"/Users/ccuellar/rdm-angular/src/index.html",
+		"/Users/ccuellar/rdm-angular/src/app/main/main.controller.js",
+		"/Users/ccuellar/rdm-angular/test/unit/main.js",
+		"/private/tmp/Pedidos",
+		"/Users/ccuellar/Projects/OpenGL/Libraries/gl3w-build/CMakeFiles/gl3w.dir/src/gl3w.c.o",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/profiles/multiProfile.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/profiles/multiProfile.wizard.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/profiles/confirm.step.html",
+		"/Users/ccuellar/rdm-angular/test/unit/deviceDetails.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDetails.less",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/profiles/selectDevices.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/worlds-nav/worldsNav.filter.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/groups/results.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/confirm.step.html",
+		"/Users/ccuellar/rdm-angular/test/unit/worldsNav.js",
+		"/Users/ccuellar/rdm-angular/src/components/worlds-nav/worldsNav.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/circle/circle.service.js",
+		"/Users/ccuellar/rdm-angular/src/app/templateOverrides.js",
+		"/Users/ccuellar/rdm-angular/src/components/members/list/memberList.html",
+		"/Users/ccuellar/rdm-angular/src/components/automations/events.service.js",
+		"/Users/ccuellar/rdm-angular/src/components/left-navbar/leftNavbar.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/list/deviceList.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/multiDevices.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/deviceMulti.controller.js",
+		"/Users/ccuellar/rdm-angular/test/unit/automations.js",
+		"/Users/ccuellar/rdm-angular/test/unit/avatars.js",
+		"/Users/ccuellar/rdm-angular/test/unit/httpBackend.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDetails.controller.js",
+		"/Users/ccuellar/rdm-angular/test/unit/devices.js",
+		"/Users/ccuellar/rdm-angular/src/components/left-navbar/leftNavbar.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/members/invite/inviteMembers.controller.js",
+		"/Users/ccuellar/rdm-angular/test/unit/users.js",
+		"/Users/ccuellar/rdm-angular/test/unit/global.js",
+		"/Users/ccuellar/rdm-angular/src/components/format/format.service.js",
+		"/Users/ccuellar/rdm-angular/test/unit/format.js",
+		"/Users/ccuellar/rdm-angular/src/components/visualizations/sensor_groups/sensor.html",
+		"/Users/ccuellar/rdm-angular/src/components/visualizations/sensor_groups/sensorContent.html",
+		"/Users/ccuellar/rdm-angular/src/components/visualizations/sensor_groups/sensor.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceVisualizations.controller.js",
+		"/Users/ccuellar/rdm-angular/test/unit/sensor.js",
+		"/Users/ccuellar/rdm-angular/src/components/browser/browser.service.js",
+		"/Users/ccuellar/rdm-angular/test/unit/browser.js",
+		"/Users/ccuellar/rdm-angular/src/components/images/defaultSrc.directive.js",
+		"/Users/ccuellar/rdm-angular/src/components/ui-select/ui-select.directive.js",
+		"/Users/ccuellar/rdm-angular/test/unit/signUp.js",
+		"/Users/ccuellar/rdm-angular/src/components/confirmation/confirmation.controller.js",
+		"/Users/ccuellar/rdm-angular/test/unit/confirmation.js",
+		"/Users/ccuellar/rdm-angular/src/components/confirmation/confirmation.html",
+		"/Users/ccuellar/rdm-angular/src/components/avatars/avatarGroups.service.js",
+		"/Users/ccuellar/rdm-angular/src/components/members/memberGroups.service.js",
+		"/Users/ccuellar/rdm-angular/test/unit/members.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsRename.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsDetails.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsInfoModule.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDelete.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsEventsModule.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsDelete.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceSettings.controller.js",
+		"/Users/ccuellar/rdm-angular/test/karma.conf.js",
+		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/odometerChart.js",
+		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/multi/odometerMulti.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/odometerInchesPrintedChart.js",
+		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/odometer.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/groups/multiGroup.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/avatars/avatars.service.js",
+		"/Users/ccuellar/rdm-angular/src/components/firmwares/firmwareUpdate.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/add/addAutomation.controller.js",
+		"/Users/ccuellar/rdm-angular/test/unit/deviceList.js",
+		"/Users/ccuellar/rdm-angular/src/components/automations/list/automationsList.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/members/invite/inviteMembersModal.html",
+		"/Users/ccuellar/rdm-angular/src/components/account-settings/accountSettings.modal.html",
+		"/Users/ccuellar/rdm-angular/src/components/account-settings/accountSettings.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/sign-up/sign-up.html",
+		"/Users/ccuellar/rdm-angular/src/components/sign-up/sign-up.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDelete.wizard.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/failed.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/confirm.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/failed.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/details/delete.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/list/deviceList.controller.js",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/deleteDevices.wizard.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/delete.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/firmwares/progress.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/groups/selectDevice.step.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/deviceMultiDetails.html",
+		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsSettings.controller.js",
+		"/Users/ccuellar/rdm-angular/src/bower_components/rdm-assets/style.css",
+		"/Users/ccuellar/rdm-angular/src/bower_components/rdm-assets/demo.html",
+		"/Users/ccuellar/rdm-angular/src/components/devices/multi/profiles/remove.step.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>",
+			"main.hmtl",
+			"",
+			"*.js",
+			"",
+			"*.html",
+			"",
+			"SliderInput",
+			"/Users/ccuellar/rdm-angular/src/components/automations/add",
+			"",
+			"*.scss",
+			"",
+			"*.scss",
+			"",
+			"*.coffee",
+			"",
+			"*.scss",
+			"",
+			"<open files>",
+			"",
+			"/Applications/MAMP/htdocs/remote-device-management/source/javascripts/modules/details_panel",
+			"",
+			"/Applications/MAMP/htdocs/remote-device-management/source/javascripts/views",
+			"*.scss",
+			"",
+			"*.coffee",
+			"",
+			"*.scss",
+			"",
+			"*.coffee",
+			"",
+			"*.coffee",
+			"*.js.coffee",
+			"",
+			"*.scss",
+			"*.js.coffee",
+			"",
+			"*.js.coffee",
+			"",
+			"*.scss",
+			"*.js.coffee",
+			"",
+			"*.js.coffee",
+			"",
+			"*.js.coffee",
+			"",
+			"*.js.coffee",
+			"",
+			"*.js.coffee",
+			"",
+			"*.scss",
+			"",
+			"*.js.coffee",
+			"",
+			"*.scss",
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"-sm-",
+			"slide",
+			"MainCtrl",
+			"minimal",
+			"h3",
+			"unique",
+			"errorLogout",
+			"destroy(",
+			"destroy",
+			"token =",
+			"token=",
+			"?token=",
+			"token=",
+			"?token=",
+			"?token",
+			"token=",
+			"$window",
+			"$state",
+			"Authen",
+			"Restangular.service",
+			".set(",
+			".set",
+			"authentokens",
+			"invitetoken",
+			"login",
+			"go(\"lo",
+			"go('lo",
+			"login",
+			"karma",
+			"shim",
+			"main.html",
+			"MainController",
+			"should remove device from",
+			"|",
+			"wz-",
+			"wz-back",
+			"removeDevice",
+			"WorldsNavController",
+			"WorldsNav",
+			"global.userWorld.color",
+			"global.userWorld",
+			"\" ",
+			"userWorld.color",
+			"userWorld.coor",
+			"global.userWorld.color",
+			"ng-style",
+			"worlds=img",
+			"worlds-im",
+			"background-color",
+			"factory",
+			"ui-sref",
+			"$root",
+			"MultiGroupController",
+			"multi",
+			"MultiDeviceController",
+			"should applyProfile",
+			"user",
+			"DeviceProfileController",
+			"InviteMembersController",
+			"GlobalController",
+			"should allow historical data wi",
+			"throu",
+			"applyProfile",
+			"selectProfile",
+			"global.deviceProfiles",
+			"scope.global =",
+			"_$rootScope_",
+			"DeviceMultiController",
+			"MultiProfile",
+			"multi",
+			"MultiProfileController",
+			"multi",
+			"MultiProfileController",
+			"console",
+			"rdm-",
+			"DeviceVisualizationsController",
+			"SensorController",
+			"controller",
+			"getDisplayValue",
+			"$scope.visualizations",
+			"$scope.visualizations =",
+			"$scope.device =",
+			"$scope.device",
+			"getDisplayValue",
+			"$scope.visualization",
+			"$scope.visualization.content",
+			"SensorController",
+			"Controller",
+			"Empty",
+			"BeEmpty",
+			"sensor.html",
+			"SensorController",
+			"isIE",
+			"BrowserService",
+			"isIE",
+			"isMobileBrowser",
+			"isPhantomJS",
+			"BrowserService",
+			"directive",
+			"removeSearchInput",
+			"uiSelect",
+			"reset-search",
+			"removeSearchInput",
+			"resetSearchModel",
+			"ConfirmationController",
+			"MemberGroups",
+			"getByUser",
+			"(currentUser",
+			"Avatar Service",
+			"AvatarGroups",
+			".factory",
+			"MemberGroups",
+			"init",
+			"$watch",
+			"watch",
+			"$watch",
+			"spyOn",
+			"dashboard.world",
+			"spyOn",
+			"AutomationsDetailsController",
+			"customPUT",
+			"should applyProfile",
+			"Controller should applyProfile",
+			"$scope.data =",
+			"then",
+			"initializ",
+			"chart",
+			"buildMultiple"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-xs-",
+			"or",
+			"modules/details_panel/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 164.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-fetch":
+	{
+		"height": 100.0
+	},
+	"output.git-merge":
+	{
+		"height": 100.0
+	},
+	"output.git-pull":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.git-remote":
+	{
+		"height": 268.0
+	},
+	"pinned_build_system": "",
+	"project": "cnnxt-mobile.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bounc",
+				"bower_components/animate.less/source/bounce.less"
+			],
+			[
+				"animate",
+				"bower_components/animate.less/animate.less"
+			],
+			[
+				"devicelis",
+				"src/components/devices/list/deviceList.html"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"worlds",
+				"src/components/worlds-nav/worldsNav.html"
+			],
+			[
+				"jso",
+				"src/assets/json/minimal_ui_definition.json"
+			],
+			[
+				"device",
+				"src/components/devices/details/deviceDetails.html"
+			],
+			[
+				"add.step.html",
+				"src/components/devices/onboard/add.step.html"
+			],
+			[
+				"onboar",
+				"src/components/devices/onboard/onboarding.wizard.html"
+			],
+			[
+				"run",
+				"src/app/run.js"
+			],
+			[
+				"word",
+				"src/components/worlds/worlds.service.js"
+			],
+			[
+				"inje",
+				"src/app/interceptors.js"
+			],
+			[
+				"globa",
+				"src/app/global/global.controller.js"
+			],
+			[
+				"logi",
+				"src/components/login/login.controller.js"
+			],
+			[
+				"config",
+				"src/app/config.js"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"inde",
+				"src/index.html"
+			],
+			[
+				"mai",
+				"src/app/main/main.controller.js"
+			],
+			[
+				"cons",
+				"src/app/constants.js"
+			],
+			[
+				"filter",
+				"src/components/worlds-nav/worldsNav.filter.js"
+			],
+			[
+				"world",
+				"src/components/worlds-nav/worldsNav.html"
+			],
+			[
+				"confirm",
+				"src/components/devices/multi/profiles/confirm.step.html"
+			],
+			[
+				"results",
+				"src/components/devices/multi/groups/results.step.html"
+			],
+			[
+				"selectdevices",
+				"src/components/devices/multi/profiles/selectDevices.step.html"
+			],
+			[
+				"multi",
+				"src/components/devices/multi/profiles/multiProfile.wizard.html"
+			],
+			[
+				"cir",
+				"src/components/circle/circle.directive.js"
+			],
+			[
+				"circ",
+				"src/components/circle/circle.directive.js"
+			],
+			[
+				"words",
+				"src/components/worlds-nav/worldsNav.controller.js"
+			],
+			[
+				"deviceslist",
+				"src/components/devices/list/deviceList.html"
+			],
+			[
+				"left",
+				"src/components/left-navbar/leftNavbar.html"
+			],
+			[
+				"aut",
+				"test/unit/automations.js"
+			],
+			[
+				"multidevice",
+				"src/components/devices/multi/devices/multiDevices.controller.js"
+			],
+			[
+				"devicemulticontroller",
+				"src/components/devices/multi/deviceMulti.controller.js"
+			],
+			[
+				"devicedetails.",
+				"src/components/devices/details/deviceDetails.controller.js"
+			],
+			[
+				"invite",
+				"src/components/members/invite/inviteMembers.controller.js"
+			],
+			[
+				"appgl",
+				"src/app/global/global.controller.js"
+			],
+			[
+				"avatar",
+				"test/unit/avatars.js"
+			],
+			[
+				"multipro",
+				"src/components/devices/multi/profiles/multiProfile.controller.js"
+			],
+			[
+				"format",
+				"src/components/format/format.service.js"
+			],
+			[
+				"back",
+				"test/unit/httpBackend.js"
+			],
+			[
+				"visua",
+				"src/components/devices/details/deviceVisualizations.controller.js"
+			],
+			[
+				"senso",
+				"src/components/visualizations/sensor_groups/sensor.controller.js"
+			],
+			[
+				"brow",
+				"src/components/browser/browser.service.js"
+			],
+			[
+				"ui-se",
+				"src/components/ui-select/ui-select.directive.js"
+			],
+			[
+				"images",
+				"src/components/images/defaultSrc.directive.js"
+			],
+			[
+				"avata",
+				"test/unit/avatars.js"
+			],
+			[
+				"confirmation",
+				"src/components/confirmation/confirmation.controller.js"
+			],
+			[
+				"confirtm",
+				"src/components/confirmation/confirmation.html"
+			],
+			[
+				"membe",
+				"src/components/members/memberGroups.service.js"
+			],
+			[
+				"automren",
+				"src/components/automations/details/automationsRename.controller.js"
+			],
+			[
+				"automationsinfomodule.controller.js",
+				"src/components/automations/details/automationsInfoModule.controller.js"
+			],
+			[
+				"automationseventsmodule.controller.js",
+				"src/components/automations/details/automationsEventsModule.controller.js"
+			],
+			[
+				"devicedeletecontroller",
+				"src/components/devices/details/deviceDelete.controller.js"
+			],
+			[
+				"devicedeta",
+				"src/components/devices/details/deviceDetails.controller.js"
+			],
+			[
+				"automationsdeta",
+				"src/components/automations/details/automationsDetails.controller.js"
+			],
+			[
+				"autom",
+				"src/components/automations/details/automationsDelete.controller.js"
+			],
+			[
+				"automatio",
+				"src/components/automations/details/automationsDetails.controller.js"
+			],
+			[
+				"karm",
+				"test/karma.conf.js"
+			],
+			[
+				"odometermul",
+				"src/components/visualizations/historical/multi/odometerMulti.controller.js"
+			],
+			[
+				"kar",
+				"test/karma.conf.js"
+			],
+			[
+				"odometerinchesprintedchart",
+				"src/components/visualizations/historical/odometerInchesPrintedChart.js"
+			],
+			[
+				"odometermulti.controller",
+				"src/components/visualizations/historical/multi/odometerMulti.controller.js"
+			],
+			[
+				"odometermulticontroller",
+				"src/components/visualizations/historical/multi/odometerMulti.controller.js"
+			],
+			[
+				"htt",
+				"test/unit/httpBackend.js"
+			],
+			[
+				"multigroupcontroller",
+				"src/components/devices/multi/groups/multiGroup.controller.js"
+			],
+			[
+				"log",
+				"src/components/login/login.controller.js"
+			],
+			[
+				"devicedetails.html",
+				"src/components/devices/details/deviceDetails.html"
+			],
+			[
+				"devicesettingscontroller",
+				"src/components/devices/details/deviceSettings.controller.js"
+			],
+			[
+				"firmwa",
+				"src/components/firmwares/firmwareUpdate.controller.js"
+			],
+			[
+				"devicedetailscontroller",
+				"src/components/devices/details/deviceDetails.controller.js"
+			],
+			[
+				"addautomationcontroller",
+				"src/components/automations/add/addAutomation.controller.js"
+			],
+			[
+				"automationsdetailscontroller",
+				"src/components/automations/details/automationsDetails.controller.js"
+			],
+			[
+				"automationslistcontroller",
+				"src/components/automations/list/automationsList.controller.js"
+			],
+			[
+				"acc",
+				"src/components/account-settings/accountSettings.modal.html"
+			],
+			[
+				"invit",
+				"src/components/members/invite/inviteMembers.controller.js"
+			],
+			[
+				"sign",
+				"src/components/sign-up/sign-up.controller.js"
+			],
+			[
+				"lef",
+				"src/components/left-navbar/leftNavbar.controller.js"
+			],
+			[
+				"devicellis",
+				"src/components/devices/list/deviceList.controller.js"
+			],
+			[
+				"multidevie",
+				"src/components/devices/multi/devices/multiDevices.controller.js"
+			],
+			[
+				"multdee",
+				"src/components/devices/multi/devices/deleteDevices.wizard.html"
+			],
+			[
+				"avatars",
+				"test/unit/avatars.js"
+			],
+			[
+				"user",
+				"test/unit/users.js"
+			],
+			[
+				"multidev",
+				"src/components/devices/multi/deviceMultiDetails.html"
+			],
+			[
+				"mutilprofie",
+				"src/components/devices/multi/profiles/multiProfile.controller.js"
+			],
+			[
+				"remove.step.html",
+				"src/components/devices/multi/profiles/remove.step.html"
+			],
+			[
+				"mult",
+				"src/components/devices/multi/profiles/multiProfile.wizard.html"
+			],
+			[
+				"proffile",
+				"src/components/devices/profiles/deviceProfile.wizard.html"
+			],
+			[
+				"multid",
+				"src/components/devices/multi/deviceMultiDetails.html"
+			],
+			[
+				"confirm.step.html",
+				"src/components/devices/multi/devices/confirm.step.html"
+			],
+			[
+				"devicemul",
+				"src/components/devices/multi/deviceMulti.controller.js"
+			],
+			[
+				"delete.step.html",
+				"src/components/devices/multi/devices/delete.step.html"
+			],
+			[
+				"multidele",
+				"src/components/devices/multi/devices/deleteDevices.wizard.html"
+			],
+			[
+				"automdet",
+				"src/components/automations/details/automationsDetails.controller.js"
+			],
+			[
+				"conf",
+				"src/app/config.js"
+			],
+			[
+				"automatev",
+				"src/components/automations/details/automationsEventsModule.controller.js"
+			],
+			[
+				"devicemult",
+				"src/components/devices/multi/deviceMulti.controller.js"
+			],
+			[
+				"delete",
+				"src/components/devices/details/deviceDelete.controller.js"
+			],
+			[
+				"devicelist",
+				"src/components/devices/list/deviceList.controller.js"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"eventsmo",
+				"src/components/automations/details/automationsEventsModule.controller.js"
+			],
+			[
+				"list",
+				"test/unit/deviceList.js"
+			],
+			[
+				"multigr",
+				"src/components/devices/multi/groups/multiGroup.controller.js"
+			],
+			[
+				"dele",
+				"src/components/devices/details/deviceDelete.controller.js"
+			],
+			[
+				"jobs",
+				"src/components/jobs/jobs.service.js"
+			],
+			[
+				"multigro",
+				"src/components/devices/multi/groups/multiGroup.controller.js"
+			],
+			[
+				"selectgroup.step.html",
+				"src/components/devices/multi/groups/selectGroup.step.html"
+			],
+			[
+				"dete",
+				"src/components/devices/details/deviceDelete.modal.html"
+			],
+			[
+				"wizard",
+				"src/components/devices/groups/renameGroup.wizard.html"
+			],
+			[
+				"multigrou",
+				"src/components/devices/multi/groups/multiGroup.wizard.html"
+			],
+			[
+				"multidet",
+				"src/components/devices/multi/deviceMulti.controller.js"
+			],
+			[
+				"events",
+				"src/components/automations/events.service.js"
+			],
+			[
+				"automeve",
+				"src/components/automations/details/automationsEventsModule.controller.js"
+			],
+			[
+				"automationsactionsmodulecontroller",
+				"src/components/automations/details/automationsActionsModule.controller.js"
+			],
+			[
+				"automationseventsmodulecontroller",
+				"src/components/automations/details/automationsEventsModule.controller.js"
+			],
+			[
+				"selectprofile",
+				"src/components/devices/multi/profiles/selectProfile.step.html"
+			],
+			[
+				"automati",
+				"src/components/automations/details/automationsDetails.controller.js"
+			],
+			[
+				"devicede",
+				"src/components/devices/details/deviceDetails.controller.js"
+			],
+			[
+				"automa",
+				"src/components/automations/details/automationsActionsModule.controller.js"
+			],
+			[
+				"job",
+				"src/components/jobs/jobs.service.js"
+			],
+			[
+				"update",
+				"src/components/firmwares/update.step.html"
+			],
+			[
+				"confir",
+				"src/components/devices/profiles/confirm.step.html"
+			],
+			[
+				"renam",
+				"src/components/devices/groups/rename.step.html"
+			],
+			[
+				"rename.step.html",
+				"src/components/devices/groups/rename.step.html"
+			],
+			[
+				"rename",
+				"src/components/devices/groups/renameGroup.wizard.html"
+			],
+			[
+				"devicedetails",
+				"src/components/devices/details/deviceDetails.controller.js"
+			],
+			[
+				"info",
+				"src/components/devices/details/deviceInfoModule.controller.js"
+			],
+			[
+				"firmw",
+				"src/components/firmwares/firmwareUpdate.controller.js"
+			],
+			[
+				"automation",
+				"src/components/automations/details/automationsEventsModule.controller.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 27.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Rdm.Models",
+				"Rdm.Models.Group"
+			],
+			[
+				"RenameForm",
+				"Rdm.Views.RenameForm"
+			],
+			[
+				"Backbone.Collection",
+				"Backbone.Collection"
+			],
+			[
+				"Rdm.Collec",
+				"Rdm.Collections.Groups"
+			],
+			[
+				"Rdm.Views.ListPanel",
+				"Rdm.Views.ListPanel"
+			],
+			[
+				"Rdm.Collections.Avatars",
+				"Rdm.Collections.Avatars"
+			],
+			[
+				"NavigatorItemDevices",
+				"Rdm.Views.NavigatorItemDevices"
+			],
+			[
+				"Rdm.Collect",
+				"Rdm.Collections.Avatars"
+			],
+			[
+				"Rdm.Models.Avata",
+				"Rdm.Models.AvatarProfile"
+			],
+			[
+				"Rdm.Views.RenameProfile",
+				"Rdm.Views.RenameProfile"
+			],
+			[
+				"WizardStep",
+				"Rdm.Views.WizardStep"
+			],
+			[
+				"#wizard-step",
+				"#wizard-step"
+			],
+			[
+				"AvatarProfile",
+				"Rdm.Models.AvatarProfile"
+			],
+			[
+				"wizard",
+				"Rdm.Views.Wizard"
+			],
+			[
+				"Wizard",
+				"Rdm.Views.Wizard"
+			],
+			[
+				"Rdm.Models.DeviceProfile",
+				"Rdm.Models.DeviceProfile"
+			],
+			[
+				"Rdm.Models.P",
+				"Rdm.Models.DeviceProfile"
+			],
+			[
+				"RenameProfileMenuAction",
+				"Rdm.Views.RenameProfileMenuAction"
+			],
+			[
+				"Rdm.UI",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"UiCom",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"UiCompo",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"Rdm.Views.DeviceSettings",
+				"Rdm.Views.DeviceSettings"
+			],
+			[
+				"AddDeviceProfileName",
+				"Rdm.Views.AddDeviceProfileName"
+			],
+			[
+				"AddDev",
+				"Rdm.Views.AddDeviceProfile"
+			],
+			[
+				"AddDevice",
+				"Rdm.Views.AddDeviceProfile"
+			],
+			[
+				"OnboardingDeviceSync",
+				"Rdm.Views.OnboardingDeviceSync"
+			],
+			[
+				"EditDeviceProfileSettings",
+				"Rdm.Views.EditDeviceProfileSettings"
+			],
+			[
+				"AddDeviceProfileSettings",
+				"Rdm.Views.AddDeviceProfileSettings"
+			],
+			[
+				"AddDeviceProfileType",
+				"Rdm.Views.AddDeviceProfileType"
+			],
+			[
+				"AddDEvice",
+				"Rdm.Views.AddDeviceProfile"
+			],
+			[
+				"RenameProf",
+				"Rdm.Views.RenameProfile"
+			],
+			[
+				"Rdm.Views.Wizard",
+				"Rdm.Views.Wizard"
+			],
+			[
+				"Rdm.Views.AddDeviceProfileType",
+				"Rdm.Views.AddDeviceProfileType"
+			],
+			[
+				"AddDeviceProfile",
+				"Rdm.Views.AddDeviceProfile"
+			],
+			[
+				"Rdm.Views.AddDeviceProfile",
+				"Rdm.Views.AddDeviceProfile"
+			],
+			[
+				"RenameAvat",
+				"Rdm.Views.RenameAvatarProfileMenuAction"
+			],
+			[
+				"Rdm.Models.Gr",
+				"Rdm.Models.Group"
+			],
+			[
+				"RenameGroup",
+				"Rdm.Views.RenameGroup"
+			],
+			[
+				"Rename",
+				"Rdm.Views.RenameAvatarProfileMenuAction"
+			],
+			[
+				"ContextMenuAction",
+				"Rdm.Views.ContextMenuAction"
+			],
+			[
+				"Rdm.Views.Ren",
+				"Rdm.Views.Rename"
+			],
+			[
+				"Rdm.Views.Rename",
+				"Rdm.Views.Rename"
+			],
+			[
+				"RenameMenuAction",
+				"Rdm.Views.RenameMenuAction"
+			],
+			[
+				"Rdm.Mode",
+				"Rdm.Models.Avatar"
+			],
+			[
+				"ContextMen",
+				"Rdm.Views.ContextMenuAction"
+			],
+			[
+				"ContextMenu",
+				"Rdm.Views.ContextMenuAction"
+			],
+			[
+				"UiComo",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"Rdm.UIComponents.Modal",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"Rdm.UIComponents.TabContent",
+				"Rdm.UIComponents.TabContent"
+			],
+			[
+				"AssignAvatarProfileMenuAction",
+				"Rdm.Views.AssignAvatarProfileMenuAction"
+			],
+			[
+				"DeviceCommandsModule",
+				"Rdm.Views.DeviceCommandsModule"
+			],
+			[
+				"DeviceAutomationModule",
+				"Rdm.Views.DeviceAutomationModule"
+			],
+			[
+				"Rdm.Views.VisualizationSensorGroup",
+				"Rdm.Views.VisualizationSensorGroup"
+			],
+			[
+				"InviteMemberMenuAction",
+				"Rdm.Views.InviteMemberMenuAction"
+			],
+			[
+				"Rdm.Views.ip",
+				"Rdm.Views.iPhoneDataVisualization"
+			],
+			[
+				"VisualizationPage",
+				"Rdm.Views.VisualizationPage"
+			],
+			[
+				"VisualizationModule",
+				"Rdm.Views.VisualizationModule"
+			],
+			[
+				"Rdm.Views.iPhoneDataVisualization",
+				"Rdm.Views.iPhoneDataVisualization"
+			],
+			[
+				"UIComp",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"ProfileSelectorIcon",
+				"Rdm.Views.ProfileSelectorIcon"
+			],
+			[
+				"UIComponents.Modal",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"UICom",
+				"Rdm.UIComponents.Modal"
+			],
+			[
+				"DeviceSettingsModalHandler",
+				"Rdm.Views.DeviceSettingsModalHandler"
+			],
+			[
+				"CreateGroupModal",
+				"Rdm.Views.CreateGroupModal"
+			],
+			[
+				"Rdm.Views.WizardStep",
+				"Rdm.Views.WizardStep"
+			],
+			[
+				"Rdm.Models.Avatar",
+				"Rdm.Models.AvatarProfile"
+			],
+			[
+				"AvatarProfileSettings",
+				"Rdm.Views.AvatarProfileSettings"
+			],
+			[
+				"Rdm.Help",
+				"Rdm.Helpers.I18N"
+			],
+			[
+				"Rdm.Helpers.I18N",
+				"Rdm.Helpers.I18N"
+			],
+			[
+				"Rdm.Helpers.1",
+				"Rdm.Helpers.I18N"
+			],
+			[
+				"Rdm.Helpers.I",
+				"Rdm.Helpers.I18N"
+			],
+			[
+				"Rdm.Views.DeviceSettingsMenuAction",
+				"Rdm.Views.DeviceSettingsMenuAction"
+			],
+			[
+				"DeviceSettingsMenuAction",
+				"Rdm.Views.DeviceSettingsMenuAction"
+			],
+			[
+				"Rdm.Models.AvatarDefinition",
+				"Rdm.Models.AvatarDefinition"
+			],
+			[
+				"Rdm.Collections.A",
+				"Rdm.Collections.AvatarDefinitions"
+			],
+			[
+				"Rdm.Models.Ava",
+				"Rdm.Models.AvatarDefinition"
+			],
+			[
+				"Rdm.Constants",
+				"Rdm.Constants"
+			],
+			[
+				"Rdm.Models.Avat",
+				"Rdm.Models.AvatarDefinition"
+			],
+			[
+				"Rdm.Models.A",
+				"Rdm.Models.Avatar"
+			],
+			[
+				"Rdm.Models.AvatarUIDefinition",
+				"Rdm.Models.AvatarUIDefinition"
+			],
+			[
+				"DeviceSettings",
+				"Rdm.Views.DeviceSettingsModalHandler"
+			],
+			[
+				"AvatarProfileDeviceType",
+				"Rdm.Views.AvatarProfileDeviceType"
+			],
+			[
+				"AddAvatarProfile",
+				"Rdm.Views.AddAvatarProfile"
+			],
+			[
+				"Rdm.Views.AvatarDetails",
+				"Rdm.Views.AvatarDetails"
+			],
+			[
+				"Rdm.ViewsDeviceSe",
+				"Rdm.Views.DeviceSettings"
+			],
+			[
+				"DeviceSett",
+				"Rdm.Views.DeviceSettingsOLD"
+			],
+			[
+				"Rdm.Views.Printe",
+				"Rdm.Views.PrinterDataVisualization"
+			],
+			[
+				"AvatarProfilesListPanel",
+				"Rdm.Views.AvatarProfilesListPanel"
+			],
+			[
+				"Rdm.Views.AvatarProfilesListPanel",
+				"Rdm.Views.AvatarProfilesListPanel"
+			],
+			[
+				"Rdm.Views.DeviceListPanel",
+				"Rdm.Views.DeviceListPanel"
+			],
+			[
+				"NavigatorD",
+				"Rdm.Views.NavigatorItemDevices"
+			],
+			[
+				"AvatarProfilesLis",
+				"Rdm.Views.AvatarProfilesListPanel"
+			],
+			[
+				"Rdm.Collectio",
+				"Rdm.Collections.Avatars"
+			],
+			[
+				"Rdm.Collections.F",
+				"Rdm.Collections.Filterable"
+			],
+			[
+				"Rdm.Views.VisualizationModule",
+				"Rdm.Views.VisualizationModule"
+			],
+			[
+				"Rdm.Model",
+				"Rdm.Models.Avatar"
+			],
+			[
+				"Collections.Ava",
+				"Rdm.Collections.Avatars"
+			],
+			[
+				"AvatarProfiles",
+				"Rdm.Collections.AvatarProfiles"
+			],
+			[
+				"Rdm.Models.AvatarProfile",
+				"Rdm.Models.AvatarProfile"
+			],
+			[
+				"DeviceListPanel",
+				"Rdm.Views.DeviceListPanel"
+			],
+			[
+				"GroupListPanel",
+				"Rdm.Views.GroupListPanel"
+			],
+			[
+				"Rdm.Const",
+				"Rdm.Constants"
+			],
+			[
+				"AvatarDetails",
+				"Rdm.Views.AvatarDetails"
+			],
+			[
+				"NavigatorPanel",
+				"Rdm.Views.NavigatorPanel"
+			],
+			[
+				"ListPanel",
+				"Rdm.Views.ListPanel"
+			],
+			[
+				"Rdm.Modes.A",
+				"Rdm.Models.Avatar"
+			],
+			[
+				"Rdm.",
+				"Rdm.Constants"
+			],
+			[
+				"QuickActions",
+				"Rdm.Views.QuickActions"
+			],
+			[
+				"AvatarDefinition",
+				"AvatarDefinitions"
+			],
+			[
+				"BaseModa",
+				"Rdm.Views.BaseModal"
+			],
+			[
+				"Rdm.Helpers.Utils",
+				"Rdm.Helpers.Utils"
+			],
+			[
+				"Collection.Avat",
+				"Rdm.Collections.Avatars"
+			],
+			[
+				"Collections.Grou",
+				"Rdm.Collections.Groups"
+			],
+			[
+				"Rdm.Views.Create",
+				"Rdm.Views.CreateGroup"
+			],
+			[
+				"SettingsControl",
+				"Rdm.Views.SettingsControl"
+			],
+			[
+				"Models.Avatar",
+				"Rdm.Models.AvatarProfile"
+			],
+			[
+				"Rdm.Collections.Av",
+				"Rdm.Collections.AvatarDefinitions"
+			],
+			[
+				"Rdm.Collections.Devices",
+				"Rdm.Collections.Devices"
+			],
+			[
+				"Rdm.Views.AvatarProfileSettings",
+				"Rdm.Views.AvatarProfileSettings"
+			],
+			[
+				"Rdm.Views.AddAv",
+				"Rdm.Views.AddAvatarProfile"
+			],
+			[
+				"AvatarProfileDev",
+				"Rdm.Views.AvatarProfileDeviceType"
+			],
+			[
+				"Rdm.Collections.AvatarDefinitions",
+				"Rdm.Collections.AvatarDefinitions"
+			],
+			[
+				"AvatarDefinitions",
+				"Rdm.Collections.AvatarDefinitions"
+			],
+			[
+				"Rdm.Cons",
+				"Rdm.Constants"
+			],
+			[
+				"Rdm.Views.SettingsGroup",
+				"Rdm.Views.SettingsGroup"
+			],
+			[
+				"Models.Ava",
+				"Rdm.Models.Avatar"
+			],
+			[
+				"Rdm.Helpers.BrowserType",
+				"Rdm.Helpers.BrowserType"
+			],
+			[
+				"Rdm.Views.BaseExternalView",
+				"Rdm.Views.BaseExternalView"
+			]
+		],
+		"width": 440.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
