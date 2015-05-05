@@ -39,10 +39,18 @@ angular.module('starter').directive('ionSearch', function() {
           '<i class="icon ion-search placeholder-icon"></i>' +
           '<input type="search" placeholder="{{placeholder}}" ng-model="search.value">' +
           '</label><div class="list">' +
-          '<div ng-repeat="user in model" class="item item-icon-right" ng-init="isClosed=true" ng-click="isClosed=!isClosed">' +
+          '<div ng-repeat="user in model">' +
+          '<a class="item item-icon-right" ng-init="isClosed=true" ng-click="isClosed=!isClosed">' +
           '{{ user.name }}' +
           '<i class="icon ion-chevron-down" ng-class="{\'ion-chevron-down\': isClosed, \'ion-chevron-up\': !isClosed}"></i>' +
-          '</div></div>' +
+          '</a>' +
+          '<ion-list class="inner-list">' +
+          '<ion-item class="item-accordion" ng-repeat="category in user.categories" ng-show="!isClosed">' +
+          '{{ category.name }}' +
+          '</ion-item>' +
+          '</ion-list>' +
+          '</div>'+
+          '</div>' +
           '</div>'
     };
 });

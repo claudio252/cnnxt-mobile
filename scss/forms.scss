@@ -13,7 +13,7 @@
 		margin-bottom: 15px !important;
 	}
 
-	.list {
+	> .list {
 		position: fixed;
 		margin-left: -25px;
 		width: 100%;
@@ -22,6 +22,11 @@
 		.item {
 			color: #0073CF;
 			padding-left: 25px;
+		}
+
+		.item-accordion {
+			background: #E6F1FA;
+			color: black;
 		}
 	}
 }

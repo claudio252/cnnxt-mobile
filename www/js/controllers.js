@@ -1,26 +1,27 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope, $q) {
+.controller('DashCtrl', function($scope, $q, Chats) {
 	$scope.users = [];
 
 	$scope.getUsersByName = function (str) {
 		var deferred = $q.defer();
 
-		users = [{
-			name: 'Test1'
-		}, {
-			name: 'Test2'
-		}, {
-			name: 'Test3'
-		}, {
-			name: 'Prueba1'
-		}, {
-			name: 'Prueba2'
-		}];
+		// users = [{
+		// 	name: 'Test1'
+		// }, {
+		// 	name: 'Test2'
+		// }, {
+		// 	name: 'Test3'
+		// }, {
+		// 	name: 'Prueba1'
+		// }, {
+		// 	name: 'Prueba2'
+		// }];
+		users = Chats.all();
 
 		var names = _(users).filter(function (user) {
 			return user.name.toLowerCase().indexOf(str.toLowerCase()) !== -1;
-		}).value();//.pluck('name').value();
+		}).value();
 
 		deferred.resolve(names);
 

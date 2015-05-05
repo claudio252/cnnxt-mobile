@@ -7684,11 +7684,14 @@ a.button {
     color: #fff; }
   .input-search-padded > label {
     margin-bottom: 15px !important; }
-  .input-search-padded .list {
+  .input-search-padded > .list {
     position: fixed;
     margin-left: -25px;
     width: 100%;
     z-index: 1; }
-    .input-search-padded .list .item {
+    .input-search-padded > .list .item {
       color: #0073CF;
       padding-left: 25px; }
+    .input-search-padded > .list .item-accordion {
+      background: #E6F1FA;
+      color: black; }
