@@ -1,0 +1,8 @@
+<ion-view view-title="Directory">
+  <ion-content>
+    <img class="padding-left" src="img/global.png" />
+    <a class="button button-block button-stable" ng-repeat="chat in chats" href="#/tab/chats/{{chat.id}}">
+      {{ chat.name }}
+    </a>
+  </ion-content>
+</ion-view>

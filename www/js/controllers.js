@@ -31,9 +31,6 @@ angular.module('starter.controllers', [])
 
 .controller('ChatsCtrl', function($scope, Chats, Departaments, CORE_API_ENDPOINT) {
   $scope.chats = Chats.all();
-  Departaments.get().getList().then(function (response) {
-  	console.log(response);
-  });
 })
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
@@ -57,4 +54,8 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
+})
+
+.controller('HomeTabCtrl', function($scope) {
+  console.log('HomeTabCtrl');
 });

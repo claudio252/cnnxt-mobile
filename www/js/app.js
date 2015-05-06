@@ -28,57 +28,93 @@ angular.module('starter', ['ionic', 'restangular', 'starter.constants', 'starter
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-
-  // setup an abstract state for the tabs directive
-    .state('tab', {
-    url: "/tab",
-    abstract: true,
-    templateUrl: "templates/tabs.html"
-  })
-
-  // Each tab has its own nav history stack:
-
-  .state('tab.dash', {
-    url: '/dash',
-    views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
-      }
-    }
-  })
-
-  .state('tab.chats', {
-      url: '/chats',
+    .state('tabs', {
+      url: "/tab",
+      abstract: true,
+      templateUrl: "templates/tabs.html"
+    })
+    .state('tabs.home', {
+      url: "/home",
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-  })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
+        'home-tab': {
+          templateUrl: "templates/home.html",
+          controller: 'DashCtrl'
         }
       }
     })
-
-  .state('tab.account', {
-    url: '/account',
-    views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+    .state('tabs.facts', {
+      url: "/facts",
+      views: {
+        'home-tab': {
+          templateUrl: "templates/facts.html",
+          controller: "ChatsCtrl"
+        }
       }
-    }
-  });
+    })
+    .state('tabs.facts2', {
+      url: "/facts2",
+      views: {
+        'home-tab': {
+          templateUrl: "templates/facts2.html"
+        }
+      }
+    });
+
+
+   $urlRouterProvider.otherwise("/tab/home");
+
+  // $stateProvider
+
+  // // setup an abstract state for the tabs directive
+  // .state('main', {
+  //   url: "/main",
+  //   abstract: true,
+  //   templateUrl: "templates/main.html"
+  // })
+
+  // // Each tab has its own nav history stack:
+
+  // .state('main.dashboard', {
+  //   url: '/dashboard',
+  //   views: {
+  //     'main-dash': {
+  //       templateUrl: 'templates/dashboard.html'
+  //       // controller: 'DashCtrl'
+  //     }
+  //   }
+  // })
+
+  // .state('main.directory', {
+  //     url: '/directory',
+  //     views: {
+  //       'main-dir': {
+  //         templateUrl: 'templates/directory.html'
+  //         // controller: 'ChatsCtrl'
+  //       }
+  //     }
+  // });
+  //   .state('tab.chat-detail', {
+  //     url: '/chats/:chatId',
+  //     views: {
+  //       'tab-chats': {
+  //         templateUrl: 'templates/chat-detail.html',
+  //         controller: 'ChatDetailCtrl'
+  //       }
+  //     }
+  //   })
+
+  // .state('tab.account', {
+  //   url: '/account',
+  //   views: {
+  //     'tab-account': {
+  //       templateUrl: 'templates/tab-account.html',
+  //       controller: 'AccountCtrl'
+  //     }
+  //   }
+  // });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  // $urlRouterProvider.otherwise('/main/dashboard');
 
   RestangularProvider.setBaseUrl(CORE_API_ENDPOINT);
 });
