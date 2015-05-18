@@ -18,7 +18,7 @@ angular.module('starter').directive('ionSearch', function() {
             if (attrs.class) element.addClass(attrs.class);
             if (attrs.source) {
               scope.$watch('search.value', function(newValue, oldValue) {
-                if (newValue.length > attrs.minLength) {
+                if (newValue.length > attrs.minLength || (newValue.length === 0 && oldValue.length !== 0)) {
                     scope.getData({
                       str: newValue
                     }).then(function(results) {
@@ -28,8 +28,23 @@ angular.module('starter').directive('ionSearch', function() {
                   scope.model = [];
                 }
               });
+
+              scope.$watch('focus', function (newValue) {
+                if (newValue) {
+                  scope.getData({
+                    str: scope.search.value !== '' ? scope.search.value:''
+                  }).then(function(results) {
+                    scope.model = results;
+                  });
+                } else {
+                  if (scope.search.value === '') {
+                    scope.model = [];
+                  }
+                }
+              });
             }
-            scope.clearSearch = function() {
+
+            scope.clearSearch = function () {
               scope.search.value = '';
             };
         },
@@ -37,10 +52,10 @@ angular.module('starter').directive('ionSearch', function() {
           '<h4>{{message}}</h4>' +
           '<label class="item item-input">' +
           '<i class="icon ion-search placeholder-icon"></i>' +
-          '<input type="search" placeholder="{{placeholder}}" ng-model="search.value">' +
+          '<input type="search" placeholder="{{placeholder}}" ng-model="search.value" ng-init="focus=false" ng-focus="focus=true" ng-blur="focus=false">' +
           '</label><div class="list">' +
           '<div ng-repeat="user in model">' +
-          '<a class="item item-icon-right" ng-init="isClosed=true" ng-click="isClosed=!isClosed">' +
+          '<a class="item item-icon-right" ng-init="isClosed=true" ng-click="focus=true;isClosed=!isClosed">' +
           '{{ user.name }}' +
           '<i class="icon ion-chevron-down" ng-class="{\'ion-chevron-down\': isClosed, \'ion-chevron-up\': !isClosed}"></i>' +
           '</a>' +

@@ -63,56 +63,6 @@ angular.module('starter', ['ionic', 'restangular', 'starter.constants', 'starter
 
    $urlRouterProvider.otherwise("/tab/home");
 
-  // $stateProvider
-
-  // // setup an abstract state for the tabs directive
-  // .state('main', {
-  //   url: "/main",
-  //   abstract: true,
-  //   templateUrl: "templates/main.html"
-  // })
-
-  // // Each tab has its own nav history stack:
-
-  // .state('main.dashboard', {
-  //   url: '/dashboard',
-  //   views: {
-  //     'main-dash': {
-  //       templateUrl: 'templates/dashboard.html'
-  //       // controller: 'DashCtrl'
-  //     }
-  //   }
-  // })
-
-  // .state('main.directory', {
-  //     url: '/directory',
-  //     views: {
-  //       'main-dir': {
-  //         templateUrl: 'templates/directory.html'
-  //         // controller: 'ChatsCtrl'
-  //       }
-  //     }
-  // });
-  //   .state('tab.chat-detail', {
-  //     url: '/chats/:chatId',
-  //     views: {
-  //       'tab-chats': {
-  //         templateUrl: 'templates/chat-detail.html',
-  //         controller: 'ChatDetailCtrl'
-  //       }
-  //     }
-  //   })
-
-  // .state('tab.account', {
-  //   url: '/account',
-  //   views: {
-  //     'tab-account': {
-  //       templateUrl: 'templates/tab-account.html',
-  //       controller: 'AccountCtrl'
-  //     }
-  //   }
-  // });
-
   // if none of the above states are matched, use this as the fallback
   // $urlRouterProvider.otherwise('/main/dashboard');
 
