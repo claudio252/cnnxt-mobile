@@ -1,23 +1,12 @@
-angular.module('starter.controllers', [])
+angular.module('cnnxtMobile.controllers', [])
 
-.controller('DashCtrl', function($scope, $q, Chats) {
+.controller('HomeCtrl', function($scope, $q, Departments) {
 	$scope.users = [];
 
-	$scope.getUsersByName = function (str) {
+	$scope.getDepartmentByString = function (str) {
 		var deferred = $q.defer();
 
-		// users = [{
-		// 	name: 'Test1'
-		// }, {
-		// 	name: 'Test2'
-		// }, {
-		// 	name: 'Test3'
-		// }, {
-		// 	name: 'Prueba1'
-		// }, {
-		// 	name: 'Prueba2'
-		// }];
-		users = Chats.all();
+		users = Departments.all();
 
 		var names = _(users).filter(function (user) {
 			return user.name.toLowerCase().indexOf(str.toLowerCase()) !== -1;
@@ -29,13 +18,9 @@ angular.module('starter.controllers', [])
 	};
 })
 
-.controller('ChatsCtrl', function($scope, Chats, Departaments, CORE_API_ENDPOINT) {
-  $scope.chats = Chats.all();
-})
-
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-
-  $scope.chat = Chats.get($stateParams.chatId);
+.controller('DepartmentsCtrl', function($scope, Departments) {
+  console.log('Departments');
+  $scope.departments = Departments.all();
 
   $scope.toggleGroup = function(group) {
     if ($scope.isGroupShown(group)) {
@@ -50,12 +35,3 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
-})
-
-.controller('HomeTabCtrl', function($scope) {
-  console.log('HomeTabCtrl');
-});

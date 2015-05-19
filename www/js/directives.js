@@ -1,5 +1,5 @@
 /* This adds a new directive, 'ion-search', which allows the user to search from a custom method */
-angular.module('starter').directive('ionSearch', function() {
+angular.module('cnnxtMobile').directive('ionSearch', function() {
     return {
         restrict: 'E',
         replace: true,
@@ -29,15 +29,15 @@ angular.module('starter').directive('ionSearch', function() {
                 }
               });
 
-              scope.$watch('focus', function (newValue) {
+              scope.$watch('focus', function (newValue, oldValue) {
                 if (newValue) {
                   scope.getData({
-                    str: scope.search.value !== '' ? scope.search.value:''
+                    str: ''
                   }).then(function(results) {
                     scope.model = results;
                   });
                 } else {
-                  if (scope.search.value === '') {
+                  if (scope.search.value === '' && oldValue === false) {
                     scope.model = [];
                   }
                 }
@@ -54,14 +54,14 @@ angular.module('starter').directive('ionSearch', function() {
           '<i class="icon ion-search placeholder-icon"></i>' +
           '<input type="search" placeholder="{{placeholder}}" ng-model="search.value" ng-init="focus=false" ng-focus="focus=true" ng-blur="focus=false">' +
           '</label><div class="list">' +
-          '<div ng-repeat="user in model">' +
+          '<div ng-repeat="department in model">' +
           '<a class="item item-icon-right" ng-init="isClosed=true" ng-click="focus=true;isClosed=!isClosed">' +
-          '{{ user.name }}' +
+          '{{ department.name }}' +
           '<i class="icon ion-chevron-down" ng-class="{\'ion-chevron-down\': isClosed, \'ion-chevron-up\': !isClosed}"></i>' +
           '</a>' +
           '<ion-list class="inner-list">' +
-          '<ion-item class="item-accordion" ng-repeat="category in user.categories" ng-show="!isClosed">' +
-          '{{ category.name }}' +
+          '<ion-item class="item-accordion" ng-repeat="category in department.categories" ng-show="!isClosed" ng-click="search.value=category.name">' +
+          '<span>{{ category.name }}</span>' +
           '</ion-item>' +
           '</ion-list>' +
           '</div>'+

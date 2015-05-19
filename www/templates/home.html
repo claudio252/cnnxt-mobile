@@ -1,9 +1,9 @@
 <ion-view view-title="Dashboard">
   <ion-content>
     <img class="padding" src="img/global.png" />
-    <ion-search class="" message="Where do you want to go?" placeholder="Search a user" min-length="1" model="users" source="getUsersByName(str)"></ion-search>
+    <ion-search class="" message="Where do you want to go?" min-length="1" model="departments" source="getDepartmentByString(str)"></ion-search>
     <div class="padding">
-      <a class="button button-block button-positive" href="#/tab/facts">Browse Directory</a>
+      <a class="button button-block button-positive" href="#/dashboard/departments">Browse Directory</a>
     </div>
   </ion-content>
 </ion-view>

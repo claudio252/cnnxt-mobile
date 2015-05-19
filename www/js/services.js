@@ -1,7 +1,6 @@
-angular.module('starter.services', [])
+angular.module('cnnxtMobile.services', [])
 
-.factory('Chats', function() {
-  // Might use a resource here that returns a JSON array
+.factory('Departments', function() {
 
   // Some fake testing data
   var chats = [{
@@ -52,9 +51,6 @@ angular.module('starter.services', [])
     all: function() {
       return chats;
     },
-    remove: function(chat) {
-      chats.splice(chats.indexOf(chat), 1);
-    },
     get: function(chatId) {
       for (var i = 0; i < chats.length; i++) {
         if (chats[i].id === parseInt(chatId)) {
@@ -66,23 +62,23 @@ angular.module('starter.services', [])
   };
 })
 
-.factory('Departaments', function (Restangular) {
+// .factory('Departaments', function (Restangular) {
 
-  return {
-    get: function (world) {
+//   return {
+//     get: function (world) {
 
-      var queryObj = {
-        action: 'get_hotspots_smh',
-        device: 'iphone',
-        type: 'department',
-        hospital_id: 6,
-        user_id: 1
-      };
+//       var queryObj = {
+//         action: 'get_hotspots_smh',
+//         device: 'iphone',
+//         type: 'department',
+//         hospital_id: 6,
+//         user_id: 1
+//       };
 
-      return Restangular.oneUrl('test');
-    },
-    getById: function (href) {
-      return Restangular.oneUrl('avatarprofiles', href)
-    }
-  };
-});
+//       return Restangular.oneUrl('test');
+//     },
+//     getById: function (href) {
+//       return Restangular.oneUrl('avatarprofiles', href)
+//     }
+//   };
+// });
