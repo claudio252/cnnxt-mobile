@@ -7702,21 +7702,34 @@ a.button {
   .inverse > h4 {
     color: #0073CF; }
 
-#departments-view .departments-list {
-  padding: 0px 20px; }
-  #departments-view .departments-list button {
-    margin-bottom: 0px; }
-  #departments-view .departments-list .item.positive-light {
-    background: #FFB77A;
-    border-bottom: 1px solid #FF9842; }
+.padding-header {
+  padding: 15px 30px; }
 
-#departments-view .departments-list {
-  padding: 0px 20px; }
-  #departments-view .departments-list button {
-    margin-bottom: 0px; }
-  #departments-view .departments-list .item.positive-light {
-    background: #FFB77A;
-    border-bottom: 1px solid #FF9842; }
+.margin-button {
+  margin: 10px 30px; }
+
+.margin-list {
+  margin: 10px 30px; }
+
+.button {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+#home-view .button-block {
+  margin-top: 50px; }
+
+#departments-view .departments-list button {
+  margin-bottom: 0px; }
+#departments-view .departments-list .item.positive-light {
+  background: #FFB77A;
+  border-bottom: 1px solid #FF9842; }
+
+#departments-view .departments-list button {
+  margin-bottom: 0px; }
+#departments-view .departments-list .item.positive-light {
+  background: #FFB77A;
+  border-bottom: 1px solid #FF9842; }
 
 #department-view .container {
   padding: 0px 20px; }
