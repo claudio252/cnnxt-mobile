@@ -7718,6 +7718,10 @@ a.button {
 
 #home-view .button-block {
   margin-top: 50px; }
+#home-view .row a {
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 15px; }
 
 #departments-view .departments-list button {
   margin-bottom: 0px; }

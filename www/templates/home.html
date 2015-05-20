@@ -4,6 +4,11 @@
     <ion-search class="search-input" message="Where do you want to go?" min-length="1" model="destinations" source="getDepartmentByString(str)"></ion-search>
     <ion-search class="search-input inverse" ng-show="destination !== ''" message="Where are you starting?" min-length="1" model="origins" source="getDepartmentByString(str)"></ion-search>
     <a class="margin-button button button-block button-assertive" ng-hide="destination !== '' || origin !== ''" href="#/dashboard/departments">Browse Directory</a>
-    <a class="button button-energized margin-button" ng-show="destination !== '' && origin !== ''" href="#/dashboard/directions">Get Directions</a>
+
+    <div class="row">
+		  <div class="col col-50 col-offset-25">
+		  	<a class="button button-energized" ng-show="destination !== '' && origin !== ''" href="#/dashboard/directions">Get Directions</a>
+		  </div>
+		</div>
   </ion-content>
 </ion-view>
