@@ -1,12 +1,12 @@
-<ion-view view-title="">
+<ion-view view-title="" id="departments-view">
   <ion-content>
-    <img class="padding-left" src="img/global.png" />
-    <div ng-repeat="department in departments">
-      <button class="button button-block button-stable" ng-click="toggleGroup(department)" ng-class="{active: isGroupShown(department)}">
+    <img class="padding" src="img/global.png" />
+    <div class="departments-list" ng-repeat="department in departments">
+      <button class="button button-block button-{{colors[$index]}}" ng-click="toggleGroup(department)" ng-class="{active: isGroupShown(department)}">
         {{ department.name }}
       </button>
       <ion-list>
-        <ion-item class="item-accordion" ng-repeat="subcategories in department.categories" ng-show="isGroupShown(department)">
+        <ion-item class="item-accordion positive-light" ng-repeat="subcategories in department.categories" ng-show="isGroupShown(department)">
           {{ subcategories.name }}
         </ion-item>
       </ion-list>

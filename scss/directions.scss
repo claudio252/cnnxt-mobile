@@ -1,0 +1,29 @@
+.map-container.padding {
+	width: 100%;
+  	height: 40%;
+  	> #map {
+  		height: 100%;
+  	}
+
+  	> button {
+  		padding: 7px 12px;
+  	}
+
+  	.list {
+  		position: absolute;
+  		width: 95%;
+
+  		> .item {
+  			text-align: center;
+  			padding: 10px 16px;
+
+  			b {
+  				color: black;
+  			}
+  		}
+  	}
+}
+
+.scroll {
+  	height: 100%;
+}

@@ -15,13 +15,22 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
-$stable: #B3B3B3 !default;
+$stable: 						#B3B3B3 !default; // Grey
+$positive: 					#FF9842 !default; // Orange
+$positive-light: 		#FFB77A;
+$calm: 							#00AFE2 !default; // Light blue
+$balanced: 					#00BDB5 !default; // Green
+$energized: 				#92349E !default; // Purple
+$assertive: 				#0073CF !default; // Blue
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-@import "scss/forms";
-@import "scss/ion-search";
+@import "scss/directives/ion-search";
+@import "scss/departments";
+@import "scss/departments";
+@import "scss/department";
+@import "scss/directions";
 

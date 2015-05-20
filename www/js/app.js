@@ -44,11 +44,20 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'cnnxtMobile.constants', 
         }
       }
     })
-    .state('tabs.facts2', {
-      url: '/facts2',
+    .state('dashboard.department', {
+      url: "/department",
       views: {
         'dashboard-view': {
-          templateUrl: 'templates/facts2.html'
+          templateUrl: 'templates/department.html'
+        }
+      }
+    })
+    .state('dashboard.directions', {
+      url: '/directions',
+      views: {
+        'dashboard-view': {
+          templateUrl: 'templates/directions.html',
+          controller: 'MapCtrl'
         }
       }
     });

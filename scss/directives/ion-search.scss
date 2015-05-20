@@ -1,6 +1,7 @@
-//TODO: move this to ion-search.scss file
-.input-search-padded {
-	background: #0073CF;
+// Styles for ion-search directive
+
+.search-input {
+	background: $assertive;
 	margin: 0;
 	padding: 0px 25px !important;
 	max-height: 105px;
@@ -17,7 +18,7 @@
 		position: fixed;
 		margin-left: -25px;
 		width: 100%;
-		z-index: 1;
+		z-index: 3;
 
 		.item {
 			color: #0073CF;
@@ -30,3 +31,16 @@
 		}
 	}
 }
+
+.inverse {
+	background: $light;
+	border-bottom: 3px solid $assertive;
+
+	> h4 {
+		color: $assertive;
+	}
+}
+
+
+
+

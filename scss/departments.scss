@@ -1,0 +1,13 @@
+#departments-view {
+	.departments-list {
+		padding: 0px 20px;
+
+		button {
+			margin-bottom: 0px;
+		}
+		.item.positive-light {
+			background: $positive-light;
+			border-bottom: 1px solid $positive;
+		}
+	}
+}

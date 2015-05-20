@@ -44,7 +44,10 @@ angular.module('cnnxtMobile.services', [])
     name: 'Parking'
   }, {
     id: 5,
-    name: 'Dining'
+    name: 'Restrooms'
+  }, {
+    id: 6,
+    name: 'Points of Interest'
   }];
 
   return {
