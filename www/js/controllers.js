@@ -92,3 +92,47 @@ angular.module('cnnxtMobile.controllers', [])
    // google.maps.event.addDomListener(window, 'load', $scope.initialize);
 })
 
+.controller('MapCtrl1', function ($scope, $ionicLoading, $compile) {
+  $scope.options = ['download app', 'text only pdf', 'pdf with map'];
+  $scope.showOptions = false;
+
+  var mapviewer = null;
+  var doNotUseSetPlaceName = false;
+  var activeFloorId = "1";
+  var changeFloorAnimationDuration = 300; // change floor animation duration in ms.
+  var IMAGE_HOST = 'http://norwalk.connexient.com/';
+  var kioskMapId = "dept1-15";
+
+  // VG Mapviewer
+
+  $scope.initVgMapviewer = function (container, initialFloorName, path) {
+    activeFloorId = initialFloorName;
+    mapviewer = new vg.mapviewer.Mapviewer();
+    mapviewer.initialize(container[0], {
+      path: '//mapmanager.visioglobe.com/public/web2d15037fdebfd/content/map.tiles.json',
+      rendererType: 'webgl',
+      initialFloorName: initialFloorName
+    }).done($scope.onLoadCompleted)
+    .fail(function() {
+      console.log('load error');
+    });
+
+    // $(window).resize(function(event) {
+    //     var h = $(window).height();
+    //     var w = $(window).width();
+    //     w = w - $('#left-column').width();
+    //     container.height(h);
+    //     container.width(w);
+    //     $('#instructions').width(w);
+    //   mapviewer.resize(container.width(), container.height());
+    // });
+  };
+
+  $scope.onLoadCompleted = function () {
+    console.log('COMPLETED');
+  };
+
+  // $scope.initVgMapviewer($('#container'), '1', 'https://mapmanager.visioglobe.com/public/f530d895e16c967c/content/map.svg');
+  $scope.initVgMapviewer($('#container'), '0', 'https://mapmanager.visioglobe.com/public/f530d895e16c967c/content/map.svg');
+});
+

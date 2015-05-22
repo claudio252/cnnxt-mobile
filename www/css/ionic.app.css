@@ -7705,11 +7705,14 @@ a.button {
 .padding-header {
   padding: 15px 30px; }
 
+.padding-content {
+  padding: 0px 25px; }
+
 .margin-button {
-  margin: 10px 30px; }
+  margin: 10px 25px; }
 
 .margin-list {
-  margin: 10px 30px; }
+  margin: 10px 25px; }
 
 .button {
   border-radius: 5px;
@@ -7740,21 +7743,20 @@ a.button {
   #department-view .container .list .item {
     border-style: none; }
 
-.map-container.padding {
-  width: 100%;
-  height: 40%; }
-  .map-container.padding > #map {
+#map-view .map-container {
+  height: 40%;
+  margin-bottom: 10px; }
+  #map-view .map-container > #container {
+    background: #E99D40;
+    margin: 0px 25px;
     height: 100%; }
-  .map-container.padding > button {
+  #map-view .map-container > button {
     padding: 7px 12px; }
-  .map-container.padding .list {
-    position: absolute;
-    width: 95%; }
-    .map-container.padding .list > .item {
-      text-align: center;
-      padding: 10px 16px; }
-      .map-container.padding .list > .item b {
-        color: black; }
-
-.scroll {
+#map-view .list {
+  position: absolute;
+  width: calc(100% - 50px); }
+  #map-view .list > .item {
+    text-align: center;
+    padding: 10px 16px; }
+#map-view .scroll {
   height: 100%; }

@@ -1,0 +1,26 @@
+<ion-view view-title="" id="map-view">
+  <ion-content>
+    <img class="padding-header" src="img/global.png" />
+    <div class="map-container">
+      <!-- MAP CONTAINER -->
+      <div id="container"></div>
+    </div>
+    <div class="padding-content">
+      <div class="list">
+        <ion-item class="item-accordion" ng-repeat="option in options" ng-show="showOptions" ng-click="action(option)">
+          <b>{{ option }}</b>
+        </ion-item>
+      </div>
+      <p>
+        <h5>Start:</h5>
+        <h4>Visitor's Welcome Center</h4>
+      </p>
+      <p>
+        <h5>Destination:</h5>
+        <h4>State of the Art Home</h4>
+      </p>
+      <button class="button button-block button-energized" ng-click="showOptions=!showOptions">Send PDF to Phone</button>
+    </div>
+    <!-- </div> -->
+  </ion-content>
+</ion-view>

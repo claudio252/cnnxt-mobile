@@ -60,6 +60,15 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'cnnxtMobile.constants', 
           controller: 'MapCtrl'
         }
       }
+    })
+    .state('dashboard.directions1', {
+      url: '/directions1',
+      views: {
+        'dashboard-view': {
+          templateUrl: 'templates/maps.html',
+          controller: 'MapCtrl1'
+        }
+      }
     });
 
   // if none of the above states are matched, use this as the fallback

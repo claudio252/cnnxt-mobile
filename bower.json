@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "restangular": "~1.5.1",
-    "lodash": "~3.8.0"
+    "lodash": "~3.8.0",
+    "jquery": "~2.1.4"
   }
 }
