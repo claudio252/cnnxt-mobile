@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Health & Home"
+  },
+  {
+    "id": 2,
+    "name": "People, Patients, Caregivers"
+  },
+  {
+    "id": 3,
+    "name": "Clinical Spaces"
+  },
+  {
+    "id": 4,
+    "name": "Healthcare IT"
+  },
+  {
+    "id": 5,
+    "name": "Parking"
+  },
+  {
+    "id": 6,
+    "name": "Restrooms"
+  },
+  {
+    "id": 7,
+    "name": "Points of Interest"
+  }
+]

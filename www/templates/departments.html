@@ -2,7 +2,7 @@
   <ion-content>
     <img class="padding-header" src="img/global.png" />
     <div class="departments-list margin-list" ng-repeat="department in departments">
-      <button class="button button-block button-{{colors[$index]}}" ng-click="toggleGroup(department)" ng-class="{active: isGroupShown(department)}">
+      <button class="button button-block button-{{department.color}}" ng-click="toggleGroup(department)" ng-class="{active: isGroupShown(department)}">
         {{ department.name }}
       </button>
       <ion-list>

@@ -1,8 +1,22 @@
 <ion-view view-title="Dashboard" id="home-view">
   <ion-content>
     <img class="padding-header" src="img/global.png" />
-    <ion-search class="search-input" message="Where do you want to go?" min-length="1" model="destinations" source="getDepartmentByString(str)"></ion-search>
-    <ion-search class="search-input inverse" ng-show="destination !== ''" message="Where are you starting?" min-length="1" model="origins" source="getDepartmentByString(str)"></ion-search>
+    <!-- <ion-search class="search-input" message="Where do you want to go?" min-length="1" model="destinations" source="getDepartmentByString(str)"></ion-search> -->
+    <!-- <ion-search class="search-input inverse" ng-show="destination !== ''" message="Where are you starting?" min-length="1" model="origins" source="getDepartmentByString(str)"></ion-search> -->
+    <div class="search-input list list-inset">
+      <h4>{{ destinationMessage }}</h4>
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search">
+      </label>
+    </div>
+    <div class="search-input inverse list list-inset">
+      <h4>{{ originMessage }}</h4>
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search">
+      </label>
+    </div>
     <a class="margin-button button button-block button-assertive" ng-hide="destination !== '' || origin !== ''" href="#/dashboard/departments">Browse Directory</a>
 
     <div class="row">

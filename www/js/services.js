@@ -1,58 +1,24 @@
 angular.module('cnnxtMobile.services', [])
 
-.factory('Departments', function() {
-
-  // Some fake testing data
-  var chats = [{
-    id: 0,
-    name: 'Health and Home',
-    categories: [{
-      name: 'departments',
-      subcategories: [{
-        name: 'cardiology'
-      }, {
-        name: 'pediatrics'
-      }, {
-        name: 'surgery'
-      }, {
-        name: 'administration'
-      }, {
-        name: 'cancer center'
-      }, {
-        name: 'cardiovascular'
-      }, {
-        name: 'emergency'
-      }]
-    }, {
-      name: 'physicians'
-    }, {
-      name: 'dummy1'
-    }, {
-      name: 'dummy2'
-    }]
-  }, {
-    id: 1,
-    name: 'People, Patients, Caregivers'
-  }, {
-    id: 2,
-    name: 'Clinical Spaces'
-  }, {
-    id: 3,
-    name: 'Healthcare IT'
-  }, {
-    id: 4,
-    name: 'Parking'
-  }, {
-    id: 5,
-    name: 'Restrooms'
-  }, {
-    id: 6,
-    name: 'Points of Interest'
-  }];
+.factory('Departments', function($q) {
 
   return {
     all: function() {
-      return chats;
+      // return chats;
+      var deferred = $q.defer();
+
+      deps = new Array();
+      var mapIds = new Object();
+
+      $.getJSON("json/categories.json", function(data) {
+        $.each(data, function(i, row) {
+          deps[i] = { category_id: row.id, name: row.name };
+          mapIds[deps[i].map_id] = deps[i].name;
+        });
+        deferred.resolve(deps);
+      });
+
+      return deferred.promise;
     },
     get: function(chatId) {
       for (var i = 0; i < chats.length; i++) {
@@ -65,23 +31,17 @@ angular.module('cnnxtMobile.services', [])
   };
 })
 
-// .factory('Departaments', function (Restangular) {
+.factory('Categories', function (Restangular) {
 
-//   return {
-//     get: function (world) {
+  return {
+    get: function () {
 
-//       var queryObj = {
-//         action: 'get_hotspots_smh',
-//         device: 'iphone',
-//         type: 'department',
-//         hospital_id: 6,
-//         user_id: 1
-//       };
+      var queryObj = {
+        action: 'get_hotspot_categories_smh',
+        device: 'iphone'
+      };
 
-//       return Restangular.oneUrl('test');
-//     },
-//     getById: function (href) {
-//       return Restangular.oneUrl('avatarprofiles', href)
-//     }
-//   };
-// });
+      return Restangular.oneUrl('api').getList('', queryObj);
+    }
+  };
+});
