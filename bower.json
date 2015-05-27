@@ -7,6 +7,8 @@
   "dependencies": {
     "restangular": "~1.5.1",
     "lodash": "~3.8.0",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "angular-md5": "~0.1.7",
+    "angular-base64": "~2.0.5"
   }
 }

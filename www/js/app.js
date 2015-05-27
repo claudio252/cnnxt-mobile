@@ -1,6 +1,6 @@
 // 'cnnxtMobile.services' is found in services.js
 // 'cnnxtMobile.controllers' is found in controllers.js
-angular.module('cnnxtMobile', ['ionic', 'restangular', 'cnnxtMobile.constants', 'cnnxtMobile.controllers', 'cnnxtMobile.services'])
+angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 'cnnxtMobile.constants', 'cnnxtMobile.controllers', 'cnnxtMobile.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -16,7 +16,7 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'cnnxtMobile.constants', 
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider, RestangularProvider, CORE_API_ENDPOINT) {
+.config(function($stateProvider, $urlRouterProvider, RestangularProvider, CORE_API_ENDPOINT, CORE_DEMO_ENDPOINT) {
 
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
@@ -74,5 +74,5 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'cnnxtMobile.constants', 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/dashboard/home');
 
-  RestangularProvider.setBaseUrl(CORE_API_ENDPOINT);
+  RestangularProvider.setBaseUrl(CORE_DEMO_ENDPOINT);
 });
