@@ -1,61 +1,57 @@
 angular.module('cnnxtMobile.controllers', [])
 
-.controller('HomeCtrl', function ($scope, $q, Departments) {
-	$scope.users = [];
+.controller('HomeCtrl', function ($scope, $q, Departments, Categories) {
+	$scope.categories = [];
+  $scope.categoriesFiltered = [];
   $scope.destination = '';
+  $scope.destination1 = '';
   $scope.origin = '';
+  $scope.origin1 = '';
   $scope.destinationMessage = 'Where do you want to go?';
   $scope.originMessage = 'Where are you starting?';
 
-  $scope.$on('update:destination', function (val) {
-    $scope.destination = val;
-  });
-
-  $scope.$on('update:origin', function (val) {
-    $scope.origin = val;
-  });
-
-	$scope.getDepartmentByString = function (str) {
-    var deferred = $q.defer();
-    var promise = Departments.all();
-    var names = [];
-
-    promise.then(function (departments) {
-      names = _(departments).filter(function (user) {
-        return user.name.toLowerCase().indexOf(str.toLowerCase()) !== -1;
-      }).value();
-
-      deferred.resolve(names);
-    });
-
-    return deferred.promise;
-	};
-})
-
-.controller('DepartmentsCtrl', function ($scope, Departments, Categories) {
-  $scope.departments = [];
-  $scope.colors = ['positive', 'calm', 'balanced', 'energized', 'assertive', 'assertive', 'assertive'];
-
   $scope.initialize = function () {
-    Categories.get();
+    var promise = Categories.allFake();
 
-    var promise = Departments.all();
-
-    promise.then(function (data) {
-      // _(data).forEach(function (department) {
-      //   department.color = $scope.getRandomColor();
-      // });
-
-      for (var i = 0; i < data.length; i++) {
-        data[i].color = $scope.getRandomColor();
-      }
-
-      $scope.departments = data;
+    promise.then(function (categories) {
+      $scope.categories = categories;
     });
   };
 
-  $scope.getRandomColor = function () {
-    return $scope.colors[Math.floor((Math.random() * ($scope.colors.length - 1)) + 1)];
+  $scope.findDestination = function (destination) {
+    $scope.categoriesFiltered = $scope.getResults(destination);
+  };
+
+  $scope.focus = function () {
+    if ($scope.destination1 === '') {
+      $scope.categoriesFiltered = $scope.categories;
+    } else {
+      $scope.categoriesFiltered = $scope.getResults($scope.destination1);
+    }
+  };
+
+  $scope.getResults = function (search) {
+    var results = _.filter($scope.categories, function (category) {
+      return category.name.toLowerCase().indexOf(search.toLowerCase()) !== -1;
+    });
+
+    return results;
+  };
+
+  $scope.initialize();
+})
+
+.controller('DepartmentsCtrl', function ($scope, Categories) {
+  $scope.categories = [];
+  $scope.colors = ['positive', 'calm', 'balanced', 'energized', 'assertive', 'assertive', 'assertive'];
+
+  $scope.initialize = function () {
+
+    var promise = Categories.allFake();
+
+    promise.then(function (categories) {
+      $scope.categories = categories;
+    });
   };
 
   $scope.toggleGroup = function(group) {

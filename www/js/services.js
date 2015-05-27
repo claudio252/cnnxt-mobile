@@ -31,10 +31,10 @@ angular.module('cnnxtMobile.services', [])
   };
 })
 
-.factory('Categories', function (Restangular) {
+.factory('Categories', function ($q, Restangular) {
 
   return {
-    get: function () {
+    all: function () {
 
       var queryObj = {
         action: 'get_hotspot_categories_smh',
@@ -42,6 +42,21 @@ angular.module('cnnxtMobile.services', [])
       };
 
       return Restangular.oneUrl('api').getList('', queryObj);
+    },
+    allFake: function () {
+      var deferred = $q.defer();
+      var deps = new Array();
+      var mapIds = {};
+
+      $.getJSON("json/categories.json", function (data) {
+        $.each(data, function (i, row) {
+          deps[i] = { category_id: row.id, name: row.name };
+          mapIds[deps[i].map_id] = deps[i].name;
+        });
+        deferred.resolve(deps);
+      });
+
+      return deferred.promise;
     }
   };
 });
