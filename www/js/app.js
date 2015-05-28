@@ -74,5 +74,6 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/dashboard/home');
 
-  RestangularProvider.setBaseUrl(LOCAL_API_ENDPOINT);
+  RestangularProvider.setBaseUrl(CORE_DEMO_ENDPOINT);
+  // RestangularProvider.setBaseUrl(LOCAL_API_ENDPOINT);
 });

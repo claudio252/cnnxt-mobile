@@ -14,6 +14,10 @@ angular.module('cnnxtMobile.controllers', [])
     var promise = Categories.allFake();
 
     promise.then(function (categories) {
+      categories = _.forEach(categories, function (category) {
+        category.deparments = [];
+      });
+
       $scope.categories = categories;
     });
   };
@@ -26,8 +30,8 @@ angular.module('cnnxtMobile.controllers', [])
     $scope.categoriesFiltered = $scope.getResults(origin);
   };
 
-  $scope.setValue = function (context, category) {
-    var name = category.name;
+  $scope.setValue = function (context, department) {
+    var name = department.name;
     if (context === 'destination') {
       $scope.destinationMessage = 'Destination:';
       $scope.destination1 = name;
@@ -36,13 +40,13 @@ angular.module('cnnxtMobile.controllers', [])
       $scope.origin1 = name;
     }
 
-    Departments.getByCategoryId(category.id).then (function (response) {
-      _.each(response, function (department) {
-        console.log(department);
-      });
-    });
-
     $scope.categoriesFiltered = [];
+  };
+
+  $scope.getDepartments = function (category) {
+    Departments.getByCategoryId(category.category_id).then (function (response) {
+      category.departments = response;
+    });
   };
 
   $scope.focus = function (context, value) {
@@ -70,30 +74,36 @@ angular.module('cnnxtMobile.controllers', [])
   $scope.initialize();
 })
 
-.controller('DepartmentsCtrl', function ($scope, Categories) {
+.controller('DepartmentsCtrl', function ($scope, Categories, Departments) {
   $scope.categories = [];
   $scope.colors = ['positive', 'calm', 'balanced', 'energized', 'assertive', 'assertive', 'assertive'];
 
   $scope.initialize = function () {
-
     var promise = Categories.allFake();
 
     promise.then(function (categories) {
+      categories = _.forEach(categories, function (category) {
+        category.departments = [];
+      });
+
       $scope.categories = categories;
     });
   };
 
-  $scope.toggleGroup = function(group) {
-    if ($scope.isGroupShown(group)) {
-      $scope.shownGroup = null;
+  $scope.getDepartments = function (category) {
+    Departments.getByCategoryId(category.category_id).then (function (response) {
+      category.departments = response;
+    });
+  };
+
+  $scope.toggleCategory = function(category, isClosed) {
+    if (isClosed) {
+      category.departments = [];
     } else {
-      $scope.shownGroup = group;
+      $scope.getDepartments(category);
     }
   };
 
-  $scope.isGroupShown = function(group) {
-    return $scope.shownGroup === group;
-  };
 
   $scope.initialize();
 })

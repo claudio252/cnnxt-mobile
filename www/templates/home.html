@@ -9,15 +9,20 @@
         </label>
         <label class="item item-input" ng-show="destination1 === ''">
           <i class="icon ion-search placeholder-icon"></i>
-          <input type="search" ng-model="destination" ng-change="findDestination(destination)" ng-focus="focus('destination', destination)" ng-blur="blur(destination)">
+          <input type="search" ng-model="destination" ng-change="findDestination(destination)" ng-focus="focus('destination', destination)">
         </label>
       </div>
       <div class="categories list" ng-show="destination1 === ''">
-        <div ng-repeat="category in categoriesFiltered" ng-init="isClosed=true" ng-click="isClosed=!isClosed">
+        <div ng-repeat="category in categoriesFiltered" ng-init="isClosed=true" ng-click="isClosed=!isClosed; getDepartments(category)">
           <a class="item item-icon-right">
             {{ category.name }}
             <i class="icon ion-chevron-down" ng-class="{'ion-chevron-down': isClosed, 'ion-chevron-up': !isClosed}"></i>
           </a>
+          <div class="inner-list" ng-show="!isClosed">
+            <div class="item item-accordion" ng-repeat="department in category.departments" ng-click="setValue('destination', department)">
+              <span>{{ department.name }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -29,15 +34,20 @@
         </label>
         <label class="item item-input" ng-show="origin1 === ''">
           <i class="icon ion-search placeholder-icon"></i>
-          <input type="search" ng-model="origin" ng-change="findOrigin(origin)" ng-focus="focus('origin', origin)" ng-blur="blur(origin)">
+          <input type="search" ng-model="origin" ng-change="findOrigin(origin)" ng-focus="focus('origin', origin)">
         </label>
       </div>
       <div class="categories list">
-        <div ng-repeat="category in categoriesFiltered" ng-click="setValue('origin', category)">
-          <a class="item item-icon-right" ng-init="isClose=true" ng-click="isClosed=!isClosed">
+        <div ng-repeat="category in categoriesFiltered" ng-init="isClosed=true" ng-click="isClosed=!isClosed; getDepartments(category)">
+          <a class="item item-icon-right">
             {{ category.name }}
-            <i class="icon ion-chevron-down"></i>
+            <i class="icon ion-chevron-down" ng-class="{'ion-chevron-down': isClosed, 'ion-chevron-up': !isClosed}"></i>
           </a>
+          <div class="inner-list" ng-show="!isClosed">
+            <div class="item item-accordion" ng-repeat="department in category.departments" ng-click="setValue('origin', department)">
+              <span>{{ department.name }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

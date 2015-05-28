@@ -7737,15 +7737,43 @@ a.button {
 
 #departments-view .departments-list button {
   margin-bottom: 0px; }
+#departments-view .departments-list .item {
+  color: #fff; }
 #departments-view .departments-list .item.positive-light {
   background: #FFB77A;
   border-bottom: 1px solid #FF9842; }
+#departments-view .departments-list .item.calm-light {
+  background: #1BCBFF;
+  border-bottom: 1px solid #00AFE2; }
+#departments-view .departments-list .item.balanced-light {
+  background: #00ECE2;
+  border-bottom: 1px solid #00BDB5; }
+#departments-view .departments-list .item.energized-light {
+  background: #B344C1;
+  border-bottom: 1px solid #92349E; }
+#departments-view .departments-list .item.assertive-light {
+  background: #038FFF;
+  border-bottom: 1px solid #0073CF; }
 
 #departments-view .departments-list button {
   margin-bottom: 0px; }
+#departments-view .departments-list .item {
+  color: #fff; }
 #departments-view .departments-list .item.positive-light {
   background: #FFB77A;
   border-bottom: 1px solid #FF9842; }
+#departments-view .departments-list .item.calm-light {
+  background: #1BCBFF;
+  border-bottom: 1px solid #00AFE2; }
+#departments-view .departments-list .item.balanced-light {
+  background: #00ECE2;
+  border-bottom: 1px solid #00BDB5; }
+#departments-view .departments-list .item.energized-light {
+  background: #B344C1;
+  border-bottom: 1px solid #92349E; }
+#departments-view .departments-list .item.assertive-light {
+  background: #038FFF;
+  border-bottom: 1px solid #0073CF; }
 
 #department-view .container {
   padding: 0px 20px; }

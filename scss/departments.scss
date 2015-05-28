@@ -3,9 +3,28 @@
 		button {
 			margin-bottom: 0px;
 		}
+		.item {
+			color: $light;
+		}
 		.item.positive-light {
 			background: $positive-light;
 			border-bottom: 1px solid $positive;
+		}
+		.item.calm-light {
+			background: $calm-light;
+			border-bottom: 1px solid $calm;
+		}
+		.item.balanced-light {
+			background: $balanced-light;
+			border-bottom: 1px solid $balanced;
+		}
+		.item.energized-light {
+			background: $energized-light;
+			border-bottom: 1px solid $energized;
+		}
+		.item.assertive-light {
+			background: $assertive-light;
+			border-bottom: 1px solid $assertive;
 		}
 	}
 }

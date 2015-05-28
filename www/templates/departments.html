@@ -2,14 +2,14 @@
   <ion-content>
     <img class="padding-header" src="img/global.png" />
     <div class="departments-list margin-list" ng-repeat="category in categories">
-      <button class="button button-block button-{{colors[$index]}}" ng-click="toggleGroup(category)" ng-class="{active: isGroupShown(category)}">
+      <button class="button button-block button-{{colors[$index]}}" ng-init="isClosed=true" ng-click="isClosed=!isClosed;toggleCategory(category, isClosed)">
         {{ category.name }}
       </button>
-      <ion-list>
-        <ion-item class="item-accordion positive-light" ng-repeat="subcategories in department.categories" ng-show="isGroupShown(department)">
-          {{ subcategories.name }}
-        </ion-item>
-      </ion-list>
+      <div class="list" ng-show="isClosed === false">
+        <div class="item item-accordion {{colors[$parent.$index]}}-light" ng-repeat="department in category.departments">
+          {{ department.name }}
+        </div>
+      </div>
     </div>
   </ion-content>
 </ion-view>

@@ -7,10 +7,11 @@ angular.module('cnnxtMobile.services', [])
       //URL is action=get_departments_by_floor_id&floor=1
       var queryObj = {
         action: 'get_departments_by_floor_id',
-        floor: 1
+        floor: categoryId
       };
 
-      return Restangular.oneUrl('db').getList('');
+      return Restangular.oneUrl('api').getList('', queryObj);
+      // return Restangular.oneUrl('db').getList('');
     }
   };
 })
