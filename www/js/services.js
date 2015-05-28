@@ -1,32 +1,16 @@
 angular.module('cnnxtMobile.services', [])
 
-.factory('Departments', function($q) {
+.factory('Departments', function($q, Restangular) {
 
   return {
-    all: function() {
-      // return chats;
-      var deferred = $q.defer();
+    getByCategoryId: function(categoryId) {
+      //URL is action=get_departments_by_floor_id&floor=1
+      var queryObj = {
+        action: 'get_departments_by_floor_id',
+        floor: 1
+      };
 
-      deps = new Array();
-      var mapIds = new Object();
-
-      $.getJSON("json/categories.json", function(data) {
-        $.each(data, function(i, row) {
-          deps[i] = { category_id: row.id, name: row.name };
-          mapIds[deps[i].map_id] = deps[i].name;
-        });
-        deferred.resolve(deps);
-      });
-
-      return deferred.promise;
-    },
-    get: function(chatId) {
-      for (var i = 0; i < chats.length; i++) {
-        if (chats[i].id === parseInt(chatId)) {
-          return chats[i];
-        }
-      }
-      return null;
+      return Restangular.oneUrl('db').getList('');
     }
   };
 })

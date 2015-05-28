@@ -1,40 +1,50 @@
 <ion-view view-title="Dashboard" id="home-view">
   <ion-content>
     <img class="padding-header" src="img/global.png" />
-    <div class="search-input list list-inset">
-      <h4>{{ destinationMessage }}</h4>
-      <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="search" ng-model="destination" ng-change="findDestination(destination)" ng-focus="focus()">
-      </label>
-      <div class="list" ng-show="destination1 === ''">
-        <div ng-repeat="category in categoriesFiltered">
+    <div>
+      <div class="search-input list list-inset">
+        <h4>{{ destinationMessage }}</h4>
+        <label class="item item-input" ng-show="destination1 !== ''">
+          <input type="text" value="{{ destination1 }}">
+        </label>
+        <label class="item item-input" ng-show="destination1 === ''">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" ng-model="destination" ng-change="findDestination(destination)" ng-focus="focus('destination', destination)" ng-blur="blur(destination)">
+        </label>
+      </div>
+      <div class="categories list" ng-show="destination1 === ''">
+        <div ng-repeat="category in categoriesFiltered" ng-init="isClosed=true" ng-click="isClosed=!isClosed">
           <a class="item item-icon-right">
+            {{ category.name }}
+            <i class="icon ion-chevron-down" ng-class="{'ion-chevron-down': isClosed, 'ion-chevron-up': !isClosed}"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div ng-show="destination1 !== ''">
+      <div class="search-input inverse list list-inset">
+        <h4>{{ originMessage }}</h4>
+        <label class="item item-input" ng-show="origin1 !== ''">
+          <input type="text" value="{{ origin1 }}">
+        </label>
+        <label class="item item-input" ng-show="origin1 === ''">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" ng-model="origin" ng-change="findOrigin(origin)" ng-focus="focus('origin', origin)" ng-blur="blur(origin)">
+        </label>
+      </div>
+      <div class="categories list">
+        <div ng-repeat="category in categoriesFiltered" ng-click="setValue('origin', category)">
+          <a class="item item-icon-right" ng-init="isClose=true" ng-click="isClosed=!isClosed">
             {{ category.name }}
             <i class="icon ion-chevron-down"></i>
           </a>
         </div>
       </div>
     </div>
-    <div class="search-input inverse list list-inset" ng-show="destination1 !== ''">
-      <h4>{{ originMessage }}</h4>
-      <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="search" ng-model="origin">
-      </label>
-      <div class="list">
-        <div ng-repeat="category in categories">
-          <a class="item item-icon-right">
-            {{ category.name }}
-            <i class="icon ion-chevron-down"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-    <a class="margin-button button button-block button-assertive" ng-hide="destination !== '' || origin !== ''" href="#/dashboard/departments">Browse Directory</a>
+    <a class="margin-button button button-block button-assertive" ng-hide="destination1 !== '' || origin1 !== '' || destination !== '' || origin1 !== ''" href="#/dashboard/departments">Browse Directory</a>
     <div class="row">
 		  <div class="col col-50 col-offset-25">
-		  	<a class="button button-energized" ng-show="destination !== '' && origin !== ''" href="#/dashboard/directions1">Get Directions</a>
+		  	<a class="button button-energized" ng-show="destination1 !== '' && origin1 !== ''" href="#/dashboard/directions1">Get Directions</a>
 		  </div>
 		</div>
   </ion-content>

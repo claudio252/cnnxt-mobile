@@ -7719,6 +7719,15 @@ a.button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px; }
 
+#home-view .categories.list {
+  width: 100%;
+  z-index: 3; }
+  #home-view .categories.list .item {
+    color: #0073CF;
+    padding-left: 25px; }
+  #home-view .categories.list .item-accordion {
+    background: #E6F1FA;
+    color: black; }
 #home-view .button-block {
   margin-top: 50px; }
 #home-view .row a {

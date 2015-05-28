@@ -22,11 +22,40 @@ angular.module('cnnxtMobile.controllers', [])
     $scope.categoriesFiltered = $scope.getResults(destination);
   };
 
-  $scope.focus = function () {
-    if ($scope.destination1 === '') {
+  $scope.findOrigin = function (origin) {
+    $scope.categoriesFiltered = $scope.getResults(origin);
+  };
+
+  $scope.setValue = function (context, category) {
+    var name = category.name;
+    if (context === 'destination') {
+      $scope.destinationMessage = 'Destination:';
+      $scope.destination1 = name;
+    } else {
+      $scope.originMessage = 'Start:';
+      $scope.origin1 = name;
+    }
+
+    Departments.getByCategoryId(category.id).then (function (response) {
+      _.each(response, function (department) {
+        console.log(department);
+      });
+    });
+
+    $scope.categoriesFiltered = [];
+  };
+
+  $scope.focus = function (context, value) {
+    if (value === '') {
       $scope.categoriesFiltered = $scope.categories;
     } else {
-      $scope.categoriesFiltered = $scope.getResults($scope.destination1);
+      $scope.categoriesFiltered = $scope.getResults(value);
+    }
+  };
+
+  $scope.blur = function (value) {
+    if (value === '') {
+      $scope.categoriesFiltered = [];
     }
   };
 

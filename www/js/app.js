@@ -16,7 +16,7 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider, RestangularProvider, CORE_API_ENDPOINT, CORE_DEMO_ENDPOINT) {
+.config(function($stateProvider, $urlRouterProvider, RestangularProvider, CORE_API_ENDPOINT, CORE_DEMO_ENDPOINT, LOCAL_API_ENDPOINT) {
 
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
@@ -74,5 +74,5 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/dashboard/home');
 
-  RestangularProvider.setBaseUrl(CORE_DEMO_ENDPOINT);
+  RestangularProvider.setBaseUrl(LOCAL_API_ENDPOINT);
 });

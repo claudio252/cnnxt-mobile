@@ -1,4 +1,19 @@
 #home-view {
+	.categories.list {
+		width: 100%;
+		z-index: 3;
+
+		.item {
+			color: #0073CF;
+			padding-left: 25px;
+		}
+
+		.item-accordion {
+			background: #E6F1FA;
+			color: black;
+		}
+	}
+
 	.button-block {
 		margin-top: 50px;
 	}
