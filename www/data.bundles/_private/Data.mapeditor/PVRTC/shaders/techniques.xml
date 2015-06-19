@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<techniques>
+
+	<technique name="null">
+		<pass>
+		</pass>
+	</technique>
+
+	<technique name="guiTextured">
+		<pass>
+			<state name="blend" enabled="true" src="eSRC_SRC_ALPHA" dst="eDST_ONE_MINUS_SRC_ALPHA"/>
+			<state name="depth" enabled="false" isWritable="false"/>
+			<program vertex="guiTextured.vert" fragment="guiTextured.frag"/>
+			<constant name="uPMatrix" type="eCT_Float4x4" value="identity"/>
+			<constant name="uVMatrix" type="GuiVMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="GuiVWMatrixConstant"/>
+			<constant name="uDiffuseMatrix" type="eCT_Float4x4" value="identity"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<constant name="uUniformColor" type="eCT_Float4" value="1.0,1.0,1.0,1.0"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+
+	<technique name="guiColored">
+		<pass>
+			<state name="blend" enabled="true" src="eSRC_SRC_ALPHA" dst="eDST_ONE_MINUS_SRC_ALPHA"/>
+			<state name="depth" enabled="false" isWritable="false"/>
+			<program vertex="guiColored.vert" fragment="guiColored.frag"/>
+			<constant name="uPMatrix" type="eCT_Float4x4" value="identity"/>
+			<constant name="uVMatrix" type="GuiVMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="GuiVWMatrixConstant"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+		</pass>
+	</technique>
+	
+	<technique name="quadTextureMatrix">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="quadTextureMatrix.vert" fragment="quadTextureMatrix.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVMatrix" type="PVWMatrixConstant"/>
+			<constant name="uDiffuseMatrix" type="eCT_Float4x4" value="identity"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+
+	<technique name="roads">
+		<pass>
+			<!-- First pass: increment front face on Z pass -->
+			<state name="clear" enabled="true" bits="eStencilBuffer" clearStencil="3" />
+			<state name="colorMask" enabled="true" redMask="false" greenMask="false" blueMask="false" alphaMask="false" />
+			<state name="cull" enabled="true" ccw="true"/>
+			<state name="depth" enabled="false" isWritable="false"/>
+			<state name="stencil" enabled="true" function="eALWAYS" reference="1" mask="0xff" writeMask="0xff" onFail="eKEEP" onZFail="eKEEP" onZPass="eINCR"/>
+		</pass>
+		<pass>
+			<!-- Second pass: decrement back face on Z pass -->
+			<state name="cull" enabled="true" ccw="false"/>
+			<state name="depth" enabled="true" function="eLESS" isWritable="false"/>
+			<state name="stencil" enabled="true" function="eALWAYS" reference="1" mask="0xff" writeMask="0xff" onFail="eKEEP" onZFail="eKEEP" onZPass="eINCR"/>
+		</pass>
+		<pass>
+			<!-- Third pass: display front face if stencil equals 1 -->
+			<state name="colorMask" enabled="true" redMask="true" greenMask="true" blueMask="true" alphaMask="true"/>
+			<state name="cull" enabled="true" ccw="true"/>
+			<state name="depth" enabled="false" isWritable="false"/>
+			<state name="stencil" enabled="true" function="eEQUAL" reference="4" mask="0xff" writeMask="0xff" onFail="eKEEP" onZFail="eKEEP" onZPass="eDECR"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneWater">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneWater.vert" fragment="sceneWater.frag"/>
+			<constant name="uPVMatrix" type="PVMatrixConstant"/>
+			<constant name="uDiffuseMatrix" type="eCT_Float4x4" value="identity"/>
+			<constant name="uModelViewIT" type="InverseVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uAnimation" type="Time20Constant"/>
+			<constant name="uNoiseRatio" type="eCT_Float1"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear" coordinate0="eSC_Repeat" coordinate1="eSC_Repeat"/>
+			<sampler name="sNormal" type="eST_2D" filter="eSF_Linear" coordinate0="eSC_Repeat" coordinate1="eSC_Repeat"/>
+			<sampler name="sEnv" type="eST_Cube" filter="eSF_Linear" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneGrass">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneGrass.vert" fragment="sceneGrass.frag"/>
+			<constant name="uPVMatrix" type="PVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<constant name="uAnimation" type="Time10Constant"/>
+			<sampler name="sDiffuse0" type="eST_2D" filter="eSF_Linear" coordinate0="eSC_Repeat" coordinate1="eSC_Repeat"/>
+			<sampler name="sDiffuse1" type="eST_2D" filter="eSF_Linear" coordinate0="eSC_Repeat" coordinate1="eSC_Repeat"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneTextured">
+		<pass>
+			<state name="cull" enabled="true" ccw="true"/>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneTextured.vert" fragment="sceneTextured.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+            <constant name="uFogStart" type="eCT_Float1"/>
+            <constant name="uFogEnd" type="eCT_Float1"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<constant name="uAlphaTexture" type="eCT_Int1"/>
+			<constant name="uDiffuseMatrix" type="eCT_Float4x4" value="identity"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneTexturedWithTransform">
+		<pass>
+			<state name="blend" enabled="true" src="eSRC_SRC_ALPHA" dst="eDST_ONE_MINUS_SRC_ALPHA"/>
+			<state name="cull" enabled="true" ccw="true"/>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneTextured.vert" fragment="sceneTextured.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVWMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+            <constant name="uFogStart" type="eCT_Float1"/>
+            <constant name="uFogEnd" type="eCT_Float1"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<constant name="uAlphaTexture" type="eCT_Int1"/>
+			<constant name="uUniformColor" type="eCT_Float4" value="1.0,1.0,1.0,1.0"/>
+            <constant name="uDiffuseMatrix" type="eCT_Float4x4" value="identity"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+	
+	<technique name="sceneTexturedRepeatWithTransform">
+		<pass>
+			<state name="blend" enabled="true" src="eSRC_SRC_ALPHA" dst="eDST_ONE_MINUS_SRC_ALPHA"/>
+			<state name="cull" enabled="true" ccw="true"/>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneTextured.vert" fragment="sceneTextured.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVWMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+            <constant name="uFogStart" type="eCT_Float1"/>
+            <constant name="uFogEnd" type="eCT_Float1"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<constant name="uAlphaTexture" type="eCT_Int1"/>
+			<constant name="uUniformColor" type="eCT_Float4" value="1.0,1.0,1.0,1.0"/>
+            <constant name="uDiffuseMatrix" type="eCT_Float4x4" value="identity"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_Repeat" coordinate1="eSC_Repeat"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneTexturedWithTransformWithLight">
+		<pass>
+			<state name="blend" enabled="true" src="eSRC_SRC_ALPHA" dst="eDST_ONE_MINUS_SRC_ALPHA"/>
+			<state name="cull" enabled="false" ccw="true"/>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneTextured.vert" fragment="sceneTextured.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVWMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+            <constant name="uFogStart" type="eCT_Float1"/>
+            <constant name="uFogEnd" type="eCT_Float1"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<constant name="uAlphaTexture" type="eCT_Int1"/>
+			<constant name="uUniformColor" type="eCT_Float4" value="1.0,1.0,1.0,1.0"/>
+            <constant name="uDiffuseMatrix" type="eCT_Float4x4" value="identity"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneColored">
+		<pass>
+			<state name="blend" enabled="true" src="eSRC_SRC_ALPHA" dst="eDST_ONE_MINUS_SRC_ALPHA"/>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneColored.vert" fragment="sceneColored.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+		</pass>
+	</technique>
+
+	<technique name="coverage">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneColored.vert" fragment="sceneColored.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<constant name="uLineWidth" type="eCT_Float1" value="2.0"/>
+		</pass>
+	</technique>
+	
+	<technique name="sceneColoredWithTransform">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneColored.vert" fragment="sceneColored.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVWMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneColoredWithTransformWithLight">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneColored.vert" fragment="sceneColored.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVWMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneUniformColor">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneUniformColor.vert" fragment="sceneUniformColor.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uUniformColor" type="eCT_Float4" value="1.0,1.0,1.0,1.0"/>
+		</pass>
+	</technique>
+
+	<technique name="track">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneUniformColor.vert" fragment="sceneUniformColor.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uUniformColor" type="eCT_Float4" value="1.0,1.0,1.0,1.0"/>
+			<constant name="uLineWidth" type="eCT_Float1" value="1.0"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneUniformColorWithTransform">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneUniformColor.vert" fragment="sceneUniformColor.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uWMatrix" type="WMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVWMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uUniformColor" type="eCT_Float4" value="1.0,1.0,1.0,1.0"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneAutoTextured">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneAutoTextured.vert" fragment="sceneAutoTextured.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVMatrixConstant"/>
+			<constant name="uFogDensity" type="eCT_Float1"/>
+			<constant name="uFogColor" type="eCT_Float4"/>
+			<constant name="uAlpha" type="eCT_Float1" value="1.0"/>
+			<constant name="uAlphaRef" type="eCT_Float1" value="0.5"/>
+			<constant name="uAlphaTest" type="eCT_Int1" value="0"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+
+	<technique name="sceneGrey">
+		<pass>
+			<state name="depth" enabled="true" function="eLESS" isWritable="true"/>
+			<program vertex="sceneGrey.vert" fragment="sceneGrey.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<constant name="uVMatrix" type="VMatrixConstant"/>
+			<constant name="uPVWMatrix" type="PVMatrixConstant"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+	
+	<technique name="sky">
+		<pass>
+			<state name="depth" isWritable="false"/>
+			<program vertex="sky.vert" fragment="sky.frag"/>
+			<constant name="uPMatrix" type="PMatrixConstant"/>
+			<!-- uPVMatrix and uVMatrix will be set programmatically -->
+			<constant name="uVMatrix" type="eCT_Float4x4"/>
+			<constant name="uPVMatrix" type="eCT_Float4x4"/>
+			<sampler name="sDiffuse" type="eST_2D" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+			<sampler name="sDiffuseCube" type="eST_Cube" filter="eSF_Linear_Nearest" coordinate0="eSC_ClampEdge" coordinate1="eSC_ClampEdge"/>
+		</pass>
+	</technique>
+
+</techniques>

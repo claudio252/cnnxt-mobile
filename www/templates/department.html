@@ -1,16 +1,22 @@
-<ion-view view-title="cnnxt-mobile" id="department-view">
+<ion-view view-title="" id="department-view">
   <ion-content>
-    <img class="padding-header" src="img/global.png" />
+    <img class="padding-header" src="img/global.png" ng-click="goToMain()"/>
     <div class="container">
-      <div class="list">
-        <a class="item item-thumbnail-right" href="#">
-          <img src="img/thumbnail.png">
-          <h2>State of the Art Home</h2>
-        </a>
+      <div class="row">
+        <div class="col col-top .col-75">
+          <h4>{{ location.name }}</h4>
+        </div>
+        <div class="col .col-25">
+          <img src="img/tenants/{{ location.slug }}.png">
+        </div>
       </div>
-      <h4>Location: Floor 1</h4>
-      <h4><a href="">www.theglobalcenter.com</a></h4>
-      <h4>Hours: 8:30am - 5:00pm M-F</h4>
+      <h4>Location: {{ location.floor_name }}</h4>
+      <h4><a href="http://{{ location.website_url }}">{{ location.website_url }}</a></h4>
+      <h4>Hours: {{ location.additional_info }}</h4>
+      <div class="row responsive-sm responsive-md responsive-lg">
+        <a class="col button button-block button-energized" ng-click="goToMain(location.id)">Get Directions</a>
+        <a class="col button button-block button-energized" ng-click="goToMap()">View Location on Map</a>
+      </div>
     </div>
   </ion-content>
 </ion-view>

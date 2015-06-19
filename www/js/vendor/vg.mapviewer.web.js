@@ -5,7 +5,7 @@ var vg;
 vg = (function(vg){
 
 /* with requirejs (uncomment next line, comment two lines above)
- * make changes at the footer as well 
+ * make changes at the footer as well
  */
 //define("visiowebkit",["jquery"],function(jQuery){
 /*

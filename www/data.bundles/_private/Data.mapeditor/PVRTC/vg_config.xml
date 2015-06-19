@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vgconfig version="2">
+    <init mode="mapMode"/>
+    <flags>
+        <flag name="distanceFactor" value="0.3" />
+        <flag name="noUnload" value="1" />
+        <flag name="mapDebugLabels" value="0" />
+        <flag name="mapLabelOrientation" value="eFaceUpOrDown" />
+        <flag name="updateFrameRateLimit" value="-1" />
+        <flag name="renderFrameRateLimit" value="-1" />
+    </flags>
+    <vg2DManipulator maxAltitude="2000.0" minAltitude="20" doubleFingerYawing="on" />
+    <camera pitch="-60.0" yaw="-123.38561847469"/>
+    <resources>
+        <databases>
+            <database resource="datagchi.20150529.sqlite"/>
+        </databases>
+    </resources>
+    <datasets>
+        <dataset name="0" pickTags="floor" dynamicClipping="on">
+            <background color1="0x000000ff" color2="0x000000ff"/>
+            <camera x="0.0" y="0.0" height="700.0"/>
+            <layer name="1" semanticTag="floor" type="VgSimpleLayer" archive="data/datagchi.routing.20150529.bin" distancePolicy="eWorldAxisZ" LODFactor="0.25" loadFactor="0.025">
+            </layer>
+            <layer name="2" semanticTag="floor" type="VgSimpleLayer" archive="data/datagchi.routing.20150529.bin" distancePolicy="eWorldAxisZ" LODFactor="0.25" loadFactor="0.025">
+            </layer>
+            <layer name="3" semanticTag="floor" type="VgSimpleLayer" archive="data/datagchi.routing.20150529.bin" distancePolicy="eWorldAxisZ" LODFactor="0.25" loadFactor="0.025">
+            </layer>
+            <layer name="4" semanticTag="floor" type="VgSimpleLayer" archive="data/datagchi.routing.20150529.bin" distancePolicy="eWorldAxisZ" LODFactor="0.25" loadFactor="0.025">
+            </layer>
+
+            <limits>
+                <min lat="41.497940423794" lon="-81.701250207773" height="0.0" />
+                <max lat="41.508178222336" lon="-81.687631610136" height="50.0" />
+            </limits>
+        </dataset>
+    </datasets>
+</vgconfig>

@@ -1,6 +1,6 @@
 <ion-view view-title="">
   <ion-content class="padding">
-    <img class="padding-header" src="img/global.png" />
+    <img class="padding-header" src="img/global.png" ng-click="goToMain()"/>
     <!-- <div class="padding"> -->
       <div class="map-container padding">
         <div id="map" data-tap-disabled="true"></div>
@@ -11,11 +11,11 @@
         </ion-list>
         <p>
           <h5>Start:</h5>
-          <h4>Visitor's Welcome Center</h4>
+          <h4>{{ $scope.origin.name }}</h4>
         </p>
         <p>
           <h5>Destination:</h5>
-          <h4>State of the Art Home</h4>
+          <h4>{{ $scope.destination.name }}</h4>
         </p>
         <button class="button button-block button-energized" ng-click="showOptions=!showOptions">Send PDF to Phone</button>
       </div>

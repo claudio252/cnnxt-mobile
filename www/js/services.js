@@ -3,15 +3,27 @@ angular.module('cnnxtMobile.services', [])
 .factory('Departments', function($q, Restangular) {
 
   return {
-    getByCategoryId: function(categoryId) {
+    getByCategoryId: function (categoryId) {
       //URL is action=get_departments_by_floor_id&floor=1
       var queryObj = {
         action: 'get_departments_by_floor_id',
         floor: categoryId
       };
 
-      return Restangular.oneUrl('api').getList('', queryObj);
-      // return Restangular.oneUrl('db').getList('');
+      // return Restangular.oneUrl('api').getList('', queryObj);
+      return Restangular.oneUrl('db').getList('');
+    },
+    getByDepartmentId: function (departmentId) {
+      // URL is action=get_hotspots_smh&hotspot_id=123&type=department&hospital_id=9
+      var queryObj = {
+        action: 'get_hotspots_smh',
+        hotspot_id: departmentId,
+        type: 'department',
+        hospital_id: '9' //For globe demo
+      };
+
+      // return Restangular.oneUrl('api').getList('', queryObj);
+      return Restangular.oneUrl(1).get();
     }
   };
 })

@@ -27,7 +27,10 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
       templateUrl: 'templates/dashboard.html'
     })
     .state('dashboard.home', {
-      url: '/home',
+      url: '/home?destination',
+      params: {
+        destination: null
+      },
       views: {
         'dashboard-view': {
           templateUrl: 'templates/home.html',
@@ -45,28 +48,47 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
       }
     })
     .state('dashboard.department', {
-      url: "/department",
+      url: "/department/:department/details",
       views: {
         'dashboard-view': {
-          templateUrl: 'templates/department.html'
+          templateUrl: 'templates/department.html',
+          controller: 'DepartmentCtrl'
         }
       }
     })
     .state('dashboard.directions', {
-      url: '/directions',
-      views: {
-        'dashboard-view': {
-          templateUrl: 'templates/directions.html',
-          controller: 'MapCtrl'
-        }
-      }
-    })
-    .state('dashboard.directions1', {
-      url: '/directions1',
+      url: '/directions?locations',
+      params: {
+        locations: null
+      },
       views: {
         'dashboard-view': {
           templateUrl: 'templates/maps.html',
-          controller: 'MapCtrl1'
+          controller: 'DirectionsCtrl'
+        }
+      }
+    })
+    .state('dashboard.direction', {
+      url: '/direction?location',
+      params: {
+        location: null
+      },
+      views: {
+        'dashboard-view': {
+          templateUrl: 'templates/map.html',
+          controller: 'DirectionCtrl'
+        }
+      }
+    })
+    .state('dashboard.test', {
+      url: '/test?direction',
+      params: {
+        direction: null
+      },
+      views: {
+        'dashboard-view': {
+          controller: 'TestCtrl',
+          templateUrl: 'templates/test.html'
         }
       }
     });
@@ -74,6 +96,6 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/dashboard/home');
 
-  RestangularProvider.setBaseUrl(CORE_DEMO_ENDPOINT);
-  // RestangularProvider.setBaseUrl(LOCAL_API_ENDPOINT);
+  // RestangularProvider.setBaseUrl(CORE_DEMO_ENDPOINT);
+  RestangularProvider.setBaseUrl(LOCAL_API_ENDPOINT);
 });

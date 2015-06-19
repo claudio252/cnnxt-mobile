@@ -28,6 +28,7 @@ angular.module('cnnxtMobile')
       var extractedData;
       // .. to look for getList operations
       if (operation === "getList") {
+        console.log('cleaning data');
         // .. and handle the data and meta data
         // Get the size
         var size = Object.keys(data).length;
@@ -38,9 +39,10 @@ angular.module('cnnxtMobile')
         // Set the size
         extractedData.paging = size;
       } else {
-        extractedData = data.data;
+        extractedData = data;
       }
-      return extractedData;
+
+      return extractedData
     };
 
     Restangular.addFullRequestInterceptor(encodeURL);

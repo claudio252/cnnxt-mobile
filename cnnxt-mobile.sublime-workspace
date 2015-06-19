@@ -4,8 +4,280 @@
 		"selected_items":
 		[
 			[
+				"orig",
+				"originPlace〔variable〕"
+			],
+			[
+				"max",
+				"maxRadius"
+			],
+			[
+				"map",
+				"mapviewer〔variable〕"
+			],
+			[
+				"depart",
+				"department"
+			],
+			[
+				"depar",
+				"department"
+			],
+			[
+				"getDepar",
+				"getByDepartmentId"
+			],
+			[
+				"$change",
+				"$stateChangeSuccess"
+			],
+			[
+				"ori",
+				"originName"
+			],
+			[
+				"or",
+				"originName"
+			],
+			[
+				"dest",
+				"destinationName"
+			],
+			[
+				"desti",
+				"destination"
+			],
+			[
+				"destin",
+				"destination1"
+			],
+			[
+				"padd",
+				"padding: "
+			],
+			[
+				"transi",
+				"transition	Style CSS"
+			],
+			[
+				"cat",
+				"category〔argument〕"
+			],
+			[
+				"get",
+				"getDepartments〔function〕"
+			],
+			[
+				"par",
+				"params〔argument〕"
+			],
+			[
+				"parse",
+				"parseInt〔function〕"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"catgo",
+				"categoriesFiltered"
+			],
+			[
+				"from",
+				"fromName〔variable〕"
+			],
+			[
+				"dep",
+				"department"
+			],
+			[
+				"de",
+				"destination"
+			],
+			[
+				"curr",
+				"currentNavigation〔variable〕"
+			],
+			[
+				"curre",
+				"currentRoute〔variable〕"
+			],
+			[
+				"l",
+				"lRouteRequest"
+			],
+			[
+				"origi",
+				"origin〔variable〕"
+			],
+			[
+				"des",
+				"destinationPlace〔variable〕"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"category",
+				"category_id"
+			],
+			[
+				"selecte",
+				"selectedLocations"
+			],
+			[
+				"sele",
+				"selectedLocations"
+			],
+			[
+				"catego",
+				"category〔argument〕"
+			],
+			[
+				"sho",
+				"shownCategory"
+			],
+			[
+				"depa",
+				"departments"
+			],
+			[
+				"sgho",
+				"shownGroup"
+			],
+			[
+				"COR",
+				"CORE_DEMO_ENDPOINT〔argument〕"
+			],
+			[
+				"cateo",
+				"category"
+			],
+			[
+				"categor",
+				"category"
+			],
+			[
+				"isClo",
+				"isClosed=!i"
+			],
+			[
+				"query",
+				"queryObj"
+			],
+			[
+				"origin",
+				"origin1"
+			],
+			[
+				"destina",
+				"destination"
+			],
+			[
+				"destinatio",
+				"destination1"
+			],
+			[
+				"encodeURI",
+				"encodeURIComponent(${0:URI})	Window"
+			],
+			[
+				"encode",
+				"encodeURIComponent(${0:URI})	Window"
+			],
+			[
+				"create",
+				"createHash"
+			],
+			[
+				"forO",
+				"_.forOwn"
+			],
+			[
+				"quer",
+				"queryObj"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"mar",
+				"margin-bottom: "
+			],
+			[
+				"ini",
+				"initVgMapviewer"
+			],
+			[
+				"margin",
+				"margin-top: "
+			],
+			[
+				"border",
+				"border-style: "
+			],
+			[
+				"border-bo",
+				"border-bottom: "
+			],
+			[
+				"mari",
+				"margin-bottom: "
+			],
+			[
+				"show",
+				"showOptions"
+			],
+			[
 				"pad",
-				"padding-top"
+				"padding-left: "
+			],
+			[
+				"border-bot",
+				"border-bottom-color: "
+			],
+			[
+				"bor",
+				"border-bottom: "
+			],
+			[
+				"mo",
+				"module	AngularJS"
+			],
+			[
+				"va",
+				"value	AngularJS"
+			],
+			[
+				"sea",
+				"search"
+			],
+			[
+				"sear",
+				"searchText"
+			],
+			[
+				"le",
+				"length	String"
+			],
+			[
+				"direc",
+				"directory"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"new",
+				"newValue"
 			],
 			[
 				"selected",
@@ -60,10 +332,6 @@
 				"userWorld"
 			],
 			[
-				"sele",
-				"selectedProfile"
-			],
-			[
 				"se",
 				"selectedDevices"
 			],
@@ -92,10 +360,6 @@
 				"visualizations"
 			],
 			[
-				"get",
-				"getDisplayValue"
-			],
-			[
 				"isMob",
 				"isMobileBrowser"
 			],
@@ -118,10 +382,6 @@
 			[
 				"is",
 				"isMobile"
-			],
-			[
-				"new",
-				"newName〔variable〕"
 			],
 			[
 				"to",
@@ -180,10 +440,6 @@
 				"font-size"
 			],
 			[
-				"padd",
-				"padding-right"
-			],
-			[
 				"eve",
 				"eventDefinition"
 			],
@@ -220,10 +476,6 @@
 				"stateNames"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"$worlds",
 				"$worldsNav〔argument〕"
 			],
@@ -234,10 +486,6 @@
 			[
 				"fro",
 				"fromParams〔argument〕"
-			],
-			[
-				"from",
-				"fromState〔argument〕"
 			],
 			[
 				"$",
@@ -266,259 +514,102 @@
 			[
 				"proce",
 				"processingJobs"
-			],
-			[
-				"preve",
-				"preventClose"
-			],
-			[
-				"proP",
-				"profilePromises"
-			],
-			[
-				"device",
-				"deviceProfiles"
-			],
-			[
-				"fir",
-				"firmware"
-			],
-			[
-				"modal",
-				"modalPromise"
-			],
-			[
-				"profile",
-				"profileHref"
-			],
-			[
-				"sel",
-				"selectedDevices  (variable)"
-			],
-			[
-				"avata",
-				"avatarProfile"
-			],
-			[
-				"acti",
-				"activitiesPromise"
-			],
-			[
-				"update",
-				"update_firmware"
-			],
-			[
-				"activi",
-				"activitiesPromise"
-			],
-			[
-				"updae",
-				"update_firmware"
-			],
-			[
-				"upda",
-				"updateFirmware"
-			],
-			[
-				"upd",
-				"updateFirmware"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"set",
-				"settingsModule"
-			],
-			[
-				"pre",
-				"previousName"
-			],
-			[
-				"fin",
-				"finally"
-			],
-			[
-				"ava",
-				"avatarDefinitionId"
-			],
-			[
-				"avatar",
-				"avatarDefinition"
-			],
-			[
-				"settin",
-				"settingsModule"
-			],
-			[
-				"ng-cl",
-				"ng-click	AngularJS"
-			],
-			[
-				"$loca",
-				"$location	AngularJS"
-			],
-			[
-				"Avat",
-				"AvatarProfiles"
-			],
-			[
-				"mod",
-				"modalPromise"
-			],
-			[
-				"app",
-				"applyProfile"
-			],
-			[
-				"profi",
-				"profile"
-			],
-			[
-				"$modal",
-				"$modalInstance"
-			],
-			[
-				"$sc",
-				"$scope	AngularJS"
-			],
-			[
-				"unk",
-				"unknownFirmware"
-			],
-			[
-				"button",
-				"buttonVisible"
-			],
-			[
-				"d",
-				"dynPropFirmware"
-			],
-			[
-				"_",
-				"_$httpBackend_"
-			],
-			[
-				"member",
-				"membersList"
-			],
-			[
-				"invite",
-				"inviteMembers"
-			],
-			[
-				"mem",
-				"membersList"
-			],
-			[
-				"members",
-				"membersPromise"
-			],
-			[
-				"ge",
-				"getUserById"
-			],
-			[
-				"avatarui",
-				"avataruidef"
-			],
-			[
-				"be",
-				"toBeUndefined"
-			],
-			[
-				"toBe",
-				"toBeUndefined"
-			],
-			[
-				"prop",
-				"properties"
-			],
-			[
-				"coll",
-				"collapsable"
-			],
-			[
-				"http",
-				"httpBackend"
-			],
-			[
-				"$http",
-				"$httpBackend	AngularJS"
-			],
-			[
-				"collapsable",
-				"collapsableData"
-			],
-			[
-				"prev",
-				"previousAttributes"
-			],
-			[
-				"change",
-				"changedAttributes"
-			],
-			[
-				"text",
-				"text-transform: "
-			],
-			[
-				"mode",
-				"modifiedAttributes"
-			],
-			[
-				"go",
-				"goToNextStep"
-			],
-			[
-				"succ",
-				"success_message"
-			],
-			[
-				"success",
-				"successfully"
-			],
-			[
-				"getSc",
-				"getSuccessStep"
-			],
-			[
-				"last",
-				"lastIndexOf"
-			],
-			[
-				"got",
-				"goToNextStep"
-			],
-			[
-				"init",
-				"initializeSteps"
-			],
-			[
-				"goT",
-				"goToPreviousStep"
-			],
-			[
-				"font",
-				"font-weight: "
-			],
-			[
-				"erro",
-				"errorElement"
-			],
-			[
-				"Renam",
-				"RenameAvatar"
-			],
-			[
-				"conten",
-				"contentView"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"contents": "angular.module('cnnxtMobile.controllers', [])\n\n.controller('GlobalController', function ($scope, $state) {\n\n  //Set global variables here\n  $scope.global = {};\n\n  $scope.goToMain = function (locationId) {\n    console.log(locationId);\n    $state.go('dashboard.home', { destination: locationId } );\n  };\n})\n\n.controller('HomeCtrl', function ($scope, $rootScope, $q, $state, Departments, Categories) {\n\n  $scope.global.selectedLocations = [];\n	$scope.categories = [];\n  $scope.categoriesFiltered = [];\n  $scope.destination1 = '';\n  $scope.origin1 = '';\n  $scope.destinationMessage = 'Where do you want to go?';\n  $scope.originMessage = 'Where are you starting from?';\n\n  $scope.model = {\n    originName: '',\n    destinationName: ''\n  };\n\n  $scope.initialize = function () {\n    console.log('IOS?: ' + ionic.Platform.isIOS());\n    console.log('Android?: ' + ionic.Platform.isAndroid());\n\n    var promise = Categories.allFake();\n\n    promise.then(function (categories) {\n      categories = _.forEach(categories, function (category) {\n        category.deparments = [];\n      });\n\n      $scope.categories = categories;\n    });\n\n    $rootScope.$on('clear:view', function (event, params) {\n      $scope.global.selectedLocations = [];\n      $scope.categoriesFiltered = [];\n\n      $scope.destination1 = '';\n      $scope.origin1 = '';\n      $scope.destinationMessage = 'Where do you want to go?';\n      $scope.originMessage = 'Where are you starting from?';\n      console.log('CLEARING');\n\n      if (params.destination) {\n\n        Departments.getByDepartmentId(params.destination).then(function (response) {\n          $scope.setValue('destination', destination[0]);\n        });\n      }\n    });\n  };\n\n  $scope.findDestination = function (destination) {\n    $scope.categoriesFiltered = $scope.getResults(destination);\n  };\n\n  $scope.findOrigin = function (origin) {\n    $scope.categoriesFiltered = $scope.getResults(origin);\n  };\n\n  $scope.setValue = function (context, department) {\n    var name = department.name;\n\n    if (context === 'destination') {\n      $scope.destinationMessage = 'Destination:';\n      $scope.destination1 = name;\n      $scope.model.destinationName = '';\n    } else {\n      $scope.originMessage = 'Start:';\n      $scope.origin1 = name;\n      $scope.model.originName = '';\n    }\n\n    $scope.global.selectedLocations.push(department);\n    $scope.categoriesFiltered = [];\n  };\n\n  $scope.getDepartments = function (category) {\n    Departments.getByCategoryId(category.category_id).then (function (response) {\n      category.departments = response;\n    });\n  };\n\n  $scope.focus = function (context, value) {\n    if (value === '') {\n      $scope.categoriesFiltered = $scope.categories;\n    } else {\n      $scope.categoriesFiltered = $scope.getResults(value);\n    }\n  };\n\n  $scope.blur = function (value) {\n    if (value === '') {\n      $scope.categoriesFiltered = [];\n    }\n  };\n\n  $scope.getResults = function (search) {\n    var results = _.filter($scope.categories, function (category) {\n      return category.name.toLowerCase().indexOf(search.toLowerCase()) !== -1;\n    });\n\n    return results;\n  };\n\n  $scope.getDirections = function () {\n    $state.go('dashboard.directions', { locations: $scope.global.selectedLocations.map(function (d) { return d.id; }).join(',') });\n  };\n\n  $scope.initialize();\n})\n\n.controller('DepartmentsCtrl', function ($scope, $state, Categories, Departments) {\n  $scope.global.selectedLocations = [];\n\n  $scope.categories = [];\n  $scope.colors = ['positive', 'calm', 'balanced', 'energized', 'assertive', 'assertive', 'assertive'];\n\n  $scope.$on('$stateChangeSuccess', function (event, toState) {\n    if(toState.name === 'dashboard.departments')\n      $scope.initialize() ;\n  });\n\n  $scope.initialize = function () {\n    var promise = Categories.allFake();\n\n    promise.then(function (categories) {\n      categories = _.forEach(categories, function (category) {\n        category.departments = [];\n      });\n\n      $scope.categories = categories;\n    });\n  };\n\n  $scope.getDepartments = function (category) {\n    Departments.getByCategoryId(category.category_id).then (function (response) {\n      category.departments = response;\n    });\n  };\n\n  $scope.toggleCategory = function (category, isClosed) {\n    if (isClosed) {\n      category.departments = [];\n    } else {\n      $scope.getDepartments(category);\n    }\n  };\n\n  $scope.selectDepartment = function (department) {\n    $scope.global.selectedLocations.push(department);\n    $state.go('dashboard.department', { department: department.id });\n  };\n})\n\n.controller('DepartmentCtrl', function ($scope, $state, $stateParams, Departments) {\n  $scope.location = {};\n\n  $scope.initialize = function () {\n    var departmentId = $stateParams.department;\n    var promise = Departments.getByDepartmentId(departmentId);\n\n    promise.then(function (response) {\n      $scope.location = response[0];\n    });\n  };\n\n  $scope.goToMap = function () {\n    $state.go('dashboard.direction', { location: $scope.location.id })\n  };\n\n  $scope.$on('$stateChangeSuccess', function (event, toState) {\n    if(toState.name === 'dashboard.department')\n      $scope.initialize() ;\n  });\n})\n\n.controller('DirectionsCtrl', function ($scope, $ionicLoading, $compile, $state) {\n  $scope.options = ['download app', 'text only pdf', 'pdf with map'];\n  $scope.showOptions = false;\n\n  //Map variables\n  $scope.currentNavigation = null;\n\n  //Map attributes\n  $scope.mapviewer = null;\n  $scope.activeFloorId = \"0\";\n\n  $scope.$on('$stateChangeSuccess', function (event, toState) {\n    if(toState.name === 'dashboard.directions')\n      $scope.initialize();\n  });\n\n  $scope.initialize = function () {\n    if ($scope.global.selectedLocations === undefined) {\n      $state.go('dashboard.home');\n      return;\n    } else {\n      $scope.destination = $scope.global.selectedLocations[0];\n      $scope.origin = $scope.global.selectedLocations[1];\n\n      // GlobeDemo Map\n      // $scope.initVgMapviewer($('#directions-container'), $scope.origin.floor_type_id, '//mapmanager.visioglobe.com/public/def4fd50656f4028/content/map.svg');\n      $scope.initVgMapviewer($('#directions-container'), $scope.origin.floor_type_id, 'data.bundles/map.tiles.json');\n    }\n  };\n\n  // VG Mapviewer\n  $scope.initVgMapviewer = function (container, initialFloorName, path) {\n    activeFloorId = initialFloorName;\n    if ($scope.mapviewer !== null) {\n      $scope.mapviewer = null;\n    }\n    $scope.mapviewer = new vg.mapviewer.Mapviewer();\n    $scope.mapviewer.initialize(container[0], {\n      path: path,\n      initialFloorName: initialFloorName,\n      rendererType: 'webgl'\n    }).done($scope.onLoadCompleted)\n    .fail(function() {\n      console.log('Something went wrong while initializing map.');\n    });\n  };\n\n  $scope.onLoadCompleted = function () {\n    var originPlace;\n    var destinationPlace;\n\n    $scope.mapviewer.start();\n\n    var places = $scope.mapviewer.getAllPlaces();\n\n    originPlace = $scope.mapviewer.getPlace($scope.origin.hotspot_map);\n    destinationPlace = $scope.mapviewer.getPlace($scope.destination.hotspot_map);\n    $scope.calculateRoute(originPlace, destinationPlace);\n    $scope.mapviewer.camera.goTo(originPlace);\n    // $scope.setInitialPositions(originPlace);\n\n  };\n\n  $scope.setActiveLocations = function (place) {\n    $scope.mapviewer.highlight(place, 0x00FF00, { opacity: 0.5 });\n  };\n\n  $scope.setInitialPositions = function (place) {\n    $scope.setPosition(place.vg.position);\n  };\n\n  //Receives an object with x, y\n  $scope.setPosition = function (position) {\n    var pos = $scope.mapviewer.camera.position;\n\n    pos.radius = 30;\n\n    pos.x = position.x;\n    pos.y = position.y;\n\n    $scope.mapviewer.camera.position = pos;\n    $scope.mapviewer.camera.pitchManipulatorEnabled = true;\n    console.log($scope.mapviewer.camera);\n  };\n\n  $scope.calculateRoute = function (origin, destination) {\n    var lRouteRequest = {};\n    var currentRoute = null;\n\n    lRouteRequest.src = origin.vg.id;\n    lRouteRequest.dst = destination.vg.id;\n\n    lRouteRequest.computeNavigation = true;\n\n    //Override certain navigation parameters\n    lRouteRequest.navigationParameters = lRouteRequest.navigationParameters || {};\n    lRouteRequest.navigationParameters.modalityParameters = lRouteRequest.navigationParameters.mModalityParameters || {};\n\n    lRouteRequest.navigationParameters.modalityParameters.shuttle = lRouteRequest.navigationParameters.modalityParameters.shuttle || {};\n    lRouteRequest.navigationParameters.modalityParameters.shuttle.straightAngleThreshold = lRouteRequest.navigationParameters.modalityParameters.shuttle.straightAngleThreshold || 180.0;\n    lRouteRequest.navigationParameters.modalityParameters.shuttle.distanceFromCouloirThreshold = lRouteRequest.navigationParameters.modalityParameters.shuttle.distanceFromCouloirThreshold || 1000.0;\n\n    // Changed default straightAngleThreshold\n    var modalities = $scope.mapviewer.getRoutingModalities();\n    var modalityParameters = lRouteRequest.navigationParameters.modalityParameters;\n    for (var i in modalities)\n    {\n      var modality = modalities[i];\n      modalityParameters[modality] = modalityParameters[modality] || {};\n      modalityParameters[modality].straightAngleThreshold = modalityParameters[modality].straightAngleThreshold || 30.0;\n    }\n\n    $scope.mapviewer.computeRoute(lRouteRequest).fail(function(pRouteRequest) {\n      alert(\"Sorry, there are problems with Routing Server\");\n    }).done(function(pRouteRequest, pRouteData) {\n      if (currentRoute != null) {\n        currentRoute.remove();\n      }\n      if ($scope.currentNavigation != null) {\n        $scope.currentNavigation.remove();\n      }\n      if (pRouteData.status && pRouteData.status != 200) {\n        alert(\"Sorry, no route available between \" + pRouteRequest.src + \" and \" + pRouteRequest.dst + \".\");\n        return;\n      }\n\n      currentRoute = new MyRoute($scope.mapviewer, pRouteData);\n      if (currentRoute.isValid()) {\n        currentRoute.show();\n\n        var startRouteAtFirstShop = true;\n\n        if (startRouteAtFirstShop) {\n          $scope.setInitialPositions(origin);\n        }\n        else {\n          $scope.setInitialPositions(originPlace);\n          var viewpoint = currentRoute.getInitialViewpointPosition();\n          var floorname = currentRoute.getInitialFloor();\n        }\n\n        $scope.currentNavigation = new MyNavigation($scope.mapviewer, pRouteData);\n      }\n      else {\n        alert(\"Problems rendering the route between \"+pRouteRequest.src + \" and \" + pRouteRequest.dst + \".\");\n      }\n    });\n\n    $scope.nextInstructions = function () {\n      $scope.currentNavigation.displayNextInstruction();\n    };\n\n    $scope.previousInstructions = function () {\n      $scope.currentNavigation.displayPrevInstruction();\n    };\n  };\n})\n\n.controller('DirectionCtrl', function ($scope, $state) {\n  $scope.department = null;\n  $scope.mapviewer1 = null;\n\n  $scope.$on('$stateChangeSuccess', function (event, toState) {\n    if(toState.name === 'dashboard.direction') {\n      $scope.initialize() ;\n    }\n  });\n\n  $scope.initialize = function () {\n    if ($scope.global.selectedLocations === undefined) {\n      $state.go('dashboard.home');\n      return;\n    } else {\n      $scope.department = $scope.global.selectedLocations[0];\n      // $scope.initVgMapviewer($('#directions-container'), $scope.department.floor_type_id, '//mapmanager.visioglobe.com/public/def4fd50656f4028/content/map.svg');\n      $scope.initVgMapviewer($('#direction-container'), $scope.department.floor_type_id, 'data.bundles/map.tiles.json');\n    }\n  };\n\n  $scope.initVgMapviewer = function (container, initialFloorName, path) {\n    activeFloorId = initialFloorName;\n    if ($scope.mapviewer1 !== null) {\n      $scope.mapviewer1 = null;\n    }\n\n    $scope.mapviewer1 = new vg.mapviewer.Mapviewer();\n\n    $scope.mapviewer1.initialize(container[0], {\n      path: path,\n      initialFloorName: initialFloorName\n    }).done($scope.onLoadCompleted)\n    .fail(function() {\n      console.log('load error');\n    });\n  };\n\n  $scope.onLoadCompleted = function () {\n    var departmentPlace;\n\n    departmentPlace = $scope.mapviewer1.getPlace($scope.department.hotspot_map);\n\n    $scope.setInitialPositions(departmentPlace);\n  };\n\n  $scope.setInitialPositions = function (place) {\n    $scope.setPosition(place.vg.position);\n  };\n\n  //Receives an object with x, y\n  $scope.setPosition = function (position) {\n\n    var pos = $scope.mapviewer1.camera.position;\n\n    pos.radius = 30;\n\n    pos.x = position.x;\n    pos.y = position.y;\n\n    $scope.mapviewer1.camera.position = pos;\n  };\n});\n\n",
+			"file": "www/js/controllers.js",
+			"file_size": 12556,
+			"file_write_time": 130788466740000000,
+			"settings":
+			{
+				"buffer_size": 12556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/MyNavigation.js",
+			"settings":
+			{
+				"buffer_size": 30484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/MyRoute.js",
+			"settings":
+			{
+				"buffer_size": 8942,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/mapviewer.web.js",
+			"settings":
+			{
+				"buffer_size": 28548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/department.html",
+			"settings":
+			{
+				"buffer_size": 927,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/run.js",
+			"settings":
+			{
+				"buffer_size": 746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/services.js",
+			"settings":
+			{
+				"buffer_size": 1509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/app.js",
+			"settings":
+			{
+				"buffer_size": 2647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/departments.html",
+			"settings":
+			{
+				"buffer_size": 740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/directions.scss",
+			"settings":
+			{
+				"buffer_size": 695,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 3109,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -528,9 +619,29 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "wel",
+		"last_filter": "for",
 		"selected_items":
 		[
+			[
+				"for",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"form",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"gqa",
+				"Git: Quick Add"
+			],
+			[
+				"gq",
+				"Git: Quick Add"
+			],
 			[
 				"wel",
 				"Snippet: bs3-well"
@@ -570,14 +681,6 @@
 			[
 				"gp",
 				"Git: Push Current Branch"
-			],
-			[
-				"gq",
-				"Git: Quick Add"
-			],
-			[
-				"gqa",
-				"Git: Quick Add"
 			],
 			[
 				"gb",
@@ -620,20 +723,12 @@
 				"Git: Add Remote"
 			],
 			[
-				"form",
-				"Pretty JSON: Format (Pretty Print) JSON"
-			],
-			[
 				"html",
 				"CodeFormatter: Format as HTML Syntax"
 			],
 			[
 				"gC",
 				"Git: Commit"
-			],
-			[
-				"for",
-				"Pretty JSON: Format (Pretty Print) JSON"
 			],
 			[
 				"json",
@@ -677,10 +772,6 @@
 			],
 			[
 				"bea",
-				"SassBeautify"
-			],
-			[
-				"sass",
 				"SassBeautify"
 			],
 			[
@@ -1089,10 +1180,78 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ccuellar/Projects/cnnxt-mobile/mobile"
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/data.bundles",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/img",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/json",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/media",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates"
 	],
 	"file_history":
 	[
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/map.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/maps.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/dashboard.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/app.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/services.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/directions.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/run.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/constants.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/MyNavigation.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/index.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/controllers.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/MyRoute.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/home.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/department.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/mapviewer.web.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/css/vendor/vg.mapviewer.web.css",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/directory.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/directions.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/departments.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/vendor/vg.mapviewer.web.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/data.bundles/map.tiles.json",
+		"/Applications/MAMP/htdocs/visioweb/application/mapviewer/js/mapviewer.web.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/department.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/ionic.app.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/interceptors.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/js/directives.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/departments.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/css/ionic.app.css",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/home.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/directives/ion-search.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/json/departments.json",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/json/fakedata.json",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/json/categories.json",
+		"/Users/ccuellar/Projects/cnnxt-globe/cnnxt-demo/app.json",
+		"/Users/ccuellar/Projects/cnnxt-globe/cnnxt-demo/package.json",
+		"/Users/ccuellar/Projects/cnnxt-globe/cnnxt-demo/server.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/lib/restangular/dist/restangular.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/lib/angular-base64/angular-base64.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/lib/angular-md5/angular-md5.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/cnnxt-mobile.sublime-project",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/bower.json",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/main.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/config.xml",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/gulpfile.js",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/.gitignore",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/directives/forms.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/forms.scss",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/ion-search.scss",
+		"/Users/ccuellar/Library/Application Support/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/tabs.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/facts.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/main.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/contact.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/nav-stack.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/about.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/facts2.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/tab-chats.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/templates/chat-detail.html",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/scss/header.less",
+		"/Users/ccuellar/Projects/cnnxt-mobile/mobile/www/css/style.css",
 		"/Users/ccuellar/Projects/connexient-html5/bower_components/animate.less/source/bounce.less",
 		"/Users/ccuellar/Projects/connexient-html5/bower_components/animate.less/animate.less",
 		"/Users/ccuellar/Projects/connexient-html5/conn-html5.sublime-project",
@@ -1160,77 +1319,18 @@
 		"/Users/ccuellar/rdm-angular/test/unit/avatars.js",
 		"/Users/ccuellar/rdm-angular/test/unit/httpBackend.js",
 		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDetails.controller.js",
-		"/Users/ccuellar/rdm-angular/test/unit/devices.js",
-		"/Users/ccuellar/rdm-angular/src/components/left-navbar/leftNavbar.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/members/invite/inviteMembers.controller.js",
-		"/Users/ccuellar/rdm-angular/test/unit/users.js",
-		"/Users/ccuellar/rdm-angular/test/unit/global.js",
-		"/Users/ccuellar/rdm-angular/src/components/format/format.service.js",
-		"/Users/ccuellar/rdm-angular/test/unit/format.js",
-		"/Users/ccuellar/rdm-angular/src/components/visualizations/sensor_groups/sensor.html",
-		"/Users/ccuellar/rdm-angular/src/components/visualizations/sensor_groups/sensorContent.html",
-		"/Users/ccuellar/rdm-angular/src/components/visualizations/sensor_groups/sensor.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceVisualizations.controller.js",
-		"/Users/ccuellar/rdm-angular/test/unit/sensor.js",
-		"/Users/ccuellar/rdm-angular/src/components/browser/browser.service.js",
-		"/Users/ccuellar/rdm-angular/test/unit/browser.js",
-		"/Users/ccuellar/rdm-angular/src/components/images/defaultSrc.directive.js",
-		"/Users/ccuellar/rdm-angular/src/components/ui-select/ui-select.directive.js",
-		"/Users/ccuellar/rdm-angular/test/unit/signUp.js",
-		"/Users/ccuellar/rdm-angular/src/components/confirmation/confirmation.controller.js",
-		"/Users/ccuellar/rdm-angular/test/unit/confirmation.js",
-		"/Users/ccuellar/rdm-angular/src/components/confirmation/confirmation.html",
-		"/Users/ccuellar/rdm-angular/src/components/avatars/avatarGroups.service.js",
-		"/Users/ccuellar/rdm-angular/src/components/members/memberGroups.service.js",
-		"/Users/ccuellar/rdm-angular/test/unit/members.js",
-		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsRename.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsDetails.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsInfoModule.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDelete.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsEventsModule.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsDelete.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceSettings.controller.js",
-		"/Users/ccuellar/rdm-angular/test/karma.conf.js",
-		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/odometerChart.js",
-		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/multi/odometerMulti.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/odometerInchesPrintedChart.js",
-		"/Users/ccuellar/rdm-angular/src/components/visualizations/historical/odometer.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/devices/multi/groups/multiGroup.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/avatars/avatars.service.js",
-		"/Users/ccuellar/rdm-angular/src/components/firmwares/firmwareUpdate.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/automations/add/addAutomation.controller.js",
-		"/Users/ccuellar/rdm-angular/test/unit/deviceList.js",
-		"/Users/ccuellar/rdm-angular/src/components/automations/list/automationsList.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/members/invite/inviteMembersModal.html",
-		"/Users/ccuellar/rdm-angular/src/components/account-settings/accountSettings.modal.html",
-		"/Users/ccuellar/rdm-angular/src/components/account-settings/accountSettings.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/sign-up/sign-up.html",
-		"/Users/ccuellar/rdm-angular/src/components/sign-up/sign-up.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/devices/details/deviceDelete.wizard.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/details/failed.step.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/details/confirm.step.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/failed.step.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/details/delete.step.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/list/deviceList.controller.js",
-		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/deleteDevices.wizard.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/multi/devices/delete.step.html",
-		"/Users/ccuellar/rdm-angular/src/components/firmwares/progress.step.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/multi/groups/selectDevice.step.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/multi/deviceMultiDetails.html",
-		"/Users/ccuellar/rdm-angular/src/components/automations/details/automationsSettings.controller.js",
-		"/Users/ccuellar/rdm-angular/src/bower_components/rdm-assets/style.css",
-		"/Users/ccuellar/rdm-angular/src/bower_components/rdm-assets/demo.html",
-		"/Users/ccuellar/rdm-angular/src/components/devices/multi/profiles/remove.step.html"
+		"/Users/ccuellar/rdm-angular/test/unit/devices.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"",
 			"<current file>",
 			"main.hmtl",
 			"",
@@ -1295,6 +1395,86 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$scope.initialize()",
+			"onLoadCompleted",
+			"camera.posi",
+			"mapview",
+			"conso",
+			"console",
+			"getByDepartmentId",
+			"DepartmentCtrl",
+			"initVgMapviewer",
+			"Departments.",
+			"DeparmentsCtr",
+			"console",
+			"dashboard-view",
+			"mapviewer",
+			"mapview",
+			"origin",
+			"destination",
+			"console.",
+			"currentNavigation",
+			".reload",
+			"initVgMapviewer",
+			"id",
+			"findeDes",
+			"categories",
+			"dashboard.directions",
+			"DepartmentCtrl",
+			"vg_ids",
+			"lRouteRequest = ",
+			"lRouteRequest = {}",
+			"lRouteRequest",
+			"handicap_routing",
+			"route",
+			"setIconNam",
+			"vg.mapview",
+			"vg-setplacename",
+			"doRouting",
+			"labelsURL",
+			"1",
+			"consol",
+			".go(",
+			".go",
+			"conso",
+			"console",
+			"toggl",
+			"<",
+			"getDepartmentByString",
+			"'",
+			"getDepartmentByString",
+			"console.log",
+			"layer_parameter",
+			"layer_par",
+			"setupInitialPosition",
+			"mapDiv must",
+			"combobo",
+			"mapview",
+			"departments-list",
+			"padding",
+			"destination-div",
+			"balance",
+			"balanced",
+			".value",
+			"model",
+			"focus",
+			"departa",
+			"starter",
+			"'starter'",
+			"starter",
+			"console",
+			"focus",
+			"nav-view",
+			"uiview",
+			"ui-view",
+			"tab-dash",
+			"tabs.html",
+			"Departaments",
+			".get",
+			"getbyWorld",
+			"console",
+			"-nav-buttons",
+			"ionicGoBack",
 			"-sm-",
 			"slide",
 			"MainCtrl",
@@ -1342,87 +1522,7 @@
 			"global.userWorld.color",
 			"ng-style",
 			"worlds=img",
-			"worlds-im",
-			"background-color",
-			"factory",
-			"ui-sref",
-			"$root",
-			"MultiGroupController",
-			"multi",
-			"MultiDeviceController",
-			"should applyProfile",
-			"user",
-			"DeviceProfileController",
-			"InviteMembersController",
-			"GlobalController",
-			"should allow historical data wi",
-			"throu",
-			"applyProfile",
-			"selectProfile",
-			"global.deviceProfiles",
-			"scope.global =",
-			"_$rootScope_",
-			"DeviceMultiController",
-			"MultiProfile",
-			"multi",
-			"MultiProfileController",
-			"multi",
-			"MultiProfileController",
-			"console",
-			"rdm-",
-			"DeviceVisualizationsController",
-			"SensorController",
-			"controller",
-			"getDisplayValue",
-			"$scope.visualizations",
-			"$scope.visualizations =",
-			"$scope.device =",
-			"$scope.device",
-			"getDisplayValue",
-			"$scope.visualization",
-			"$scope.visualization.content",
-			"SensorController",
-			"Controller",
-			"Empty",
-			"BeEmpty",
-			"sensor.html",
-			"SensorController",
-			"isIE",
-			"BrowserService",
-			"isIE",
-			"isMobileBrowser",
-			"isPhantomJS",
-			"BrowserService",
-			"directive",
-			"removeSearchInput",
-			"uiSelect",
-			"reset-search",
-			"removeSearchInput",
-			"resetSearchModel",
-			"ConfirmationController",
-			"MemberGroups",
-			"getByUser",
-			"(currentUser",
-			"Avatar Service",
-			"AvatarGroups",
-			".factory",
-			"MemberGroups",
-			"init",
-			"$watch",
-			"watch",
-			"$watch",
-			"spyOn",
-			"dashboard.world",
-			"spyOn",
-			"AutomationsDetailsController",
-			"customPUT",
-			"should applyProfile",
-			"Controller should applyProfile",
-			"$scope.data =",
-			"then",
-			"initializ",
-			"chart",
-			"buildMultiple"
+			"worlds-im"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1430,6 +1530,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
+			"'cnnxtMobile'",
 			"-xs-",
 			"or",
 			"modules/details_panel/"
@@ -1443,8 +1545,344 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12294,
+								12294
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"history_list_is_closing": true,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/js/MyNavigation.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8471,
+								8105
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3097.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/js/MyRoute.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 339.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/js/mapviewer.web.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25188,
+								25188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13303.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/templates/department.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								735,
+								735
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/js/run.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/js/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2642,
+								2642
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/templates/departments.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								618
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "scss/directions.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "www/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3027,
+								3027
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1481,7 +1919,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 164.0
+		"height": 113.0
 	},
 	"output.find_results":
 	{
@@ -1519,7 +1957,7 @@
 	"project": "cnnxt-mobile.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1528,6 +1966,194 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"departments",
+				"www/templates/departments.html"
+			],
+			[
+				"serv",
+				"www/js/services.js"
+			],
+			[
+				"map.h",
+				"www/templates/map.html"
+			],
+			[
+				"map",
+				"www/templates/maps.html"
+			],
+			[
+				"deparment",
+				"www/templates/department.html"
+			],
+			[
+				"app",
+				"www/js/app.js"
+			],
+			[
+				"direc",
+				"scss/directions.scss"
+			],
+			[
+				"maps",
+				"www/templates/maps.html"
+			],
+			[
+				"service",
+				"www/js/services.js"
+			],
+			[
+				"home",
+				"www/templates/home.html"
+			],
+			[
+				"cons",
+				"www/js/constants.js"
+			],
+			[
+				"myrou",
+				"www/js/MyRoute.js"
+			],
+			[
+				"depar",
+				"www/templates/department.html"
+			],
+			[
+				"department",
+				"www/templates/department.html"
+			],
+			[
+				"inde",
+				"www/index.html"
+			],
+			[
+				"ser",
+				"www/js/services.js"
+			],
+			[
+				"ap",
+				"www/js/app.js"
+			],
+			[
+				"mapview",
+				"www/js/mapviewer.web.js"
+			],
+			[
+				"ioni",
+				"scss/ionic.app.scss"
+			],
+			[
+				"ioc",
+				"www/css/ionic.app.css"
+			],
+			[
+				"depa",
+				"scss/departments.scss"
+			],
+			[
+				"inte",
+				"www/js/interceptors.js"
+			],
+			[
+				"fak",
+				"www/json/fakedata.json"
+			],
+			[
+				"ince",
+				"www/js/interceptors.js"
+			],
+			[
+				"sera",
+				"scss/directives/ion-search.scss"
+			],
+			[
+				"dire",
+				"www/js/directives.js"
+			],
+			[
+				"cate",
+				"www/json/categories.json"
+			],
+			[
+				"ionic",
+				"scss/ionic.app.scss"
+			],
+			[
+				"ion",
+				"scss/directives/ion-search.scss"
+			],
+			[
+				"directive",
+				"www/js/directives.js"
+			],
+			[
+				"categ",
+				"www/json/categories.json"
+			],
+			[
+				"restang",
+				"www/lib/restangular/dist/restangular.js"
+			],
+			[
+				"suble",
+				"cnnxt-mobile.sublime-project"
+			],
+			[
+				"bowe",
+				"bower.json"
+			],
+			[
+				"contr",
+				"www/js/controllers.js"
+			],
+			[
+				"ionc",
+				"www/css/ionic.app.css"
+			],
+			[
+				"main",
+				"scss/main.scss"
+			],
+			[
+				"subl",
+				"cnnxt-mobile.sublime-project"
+			],
+			[
+				"sub",
+				"cnnxt-mobile.sublime-project"
+			],
+			[
+				"contro",
+				"www/js/controllers.js"
+			],
+			[
+				"direct",
+				"www/templates/directions.html"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"contor",
+				"www/js/controllers.js"
+			],
+			[
+				"tabs.",
+				"www/templates/tabs.html"
+			],
+			[
+				"tabs.html",
+				"www/templates/tabs.html"
+			],
+			[
+				"servi",
+				"www/js/services.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
 			[
 				"bounc",
 				"bower_components/animate.less/source/bounce.less"
@@ -1539,10 +2165,6 @@
 			[
 				"devicelis",
 				"src/components/devices/list/deviceList.html"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"worlds",
@@ -1593,16 +2215,8 @@
 				"package.json"
 			],
 			[
-				"inde",
-				"src/index.html"
-			],
-			[
 				"mai",
 				"src/app/main/main.controller.js"
-			],
-			[
-				"cons",
-				"src/app/constants.js"
 			],
 			[
 				"filter",
@@ -1863,182 +2477,6 @@
 			[
 				"mutilprofie",
 				"src/components/devices/multi/profiles/multiProfile.controller.js"
-			],
-			[
-				"remove.step.html",
-				"src/components/devices/multi/profiles/remove.step.html"
-			],
-			[
-				"mult",
-				"src/components/devices/multi/profiles/multiProfile.wizard.html"
-			],
-			[
-				"proffile",
-				"src/components/devices/profiles/deviceProfile.wizard.html"
-			],
-			[
-				"multid",
-				"src/components/devices/multi/deviceMultiDetails.html"
-			],
-			[
-				"confirm.step.html",
-				"src/components/devices/multi/devices/confirm.step.html"
-			],
-			[
-				"devicemul",
-				"src/components/devices/multi/deviceMulti.controller.js"
-			],
-			[
-				"delete.step.html",
-				"src/components/devices/multi/devices/delete.step.html"
-			],
-			[
-				"multidele",
-				"src/components/devices/multi/devices/deleteDevices.wizard.html"
-			],
-			[
-				"automdet",
-				"src/components/automations/details/automationsDetails.controller.js"
-			],
-			[
-				"conf",
-				"src/app/config.js"
-			],
-			[
-				"automatev",
-				"src/components/automations/details/automationsEventsModule.controller.js"
-			],
-			[
-				"devicemult",
-				"src/components/devices/multi/deviceMulti.controller.js"
-			],
-			[
-				"delete",
-				"src/components/devices/details/deviceDelete.controller.js"
-			],
-			[
-				"devicelist",
-				"src/components/devices/list/deviceList.controller.js"
-			],
-			[
-				"index",
-				"src/index.html"
-			],
-			[
-				"eventsmo",
-				"src/components/automations/details/automationsEventsModule.controller.js"
-			],
-			[
-				"list",
-				"test/unit/deviceList.js"
-			],
-			[
-				"multigr",
-				"src/components/devices/multi/groups/multiGroup.controller.js"
-			],
-			[
-				"dele",
-				"src/components/devices/details/deviceDelete.controller.js"
-			],
-			[
-				"jobs",
-				"src/components/jobs/jobs.service.js"
-			],
-			[
-				"multigro",
-				"src/components/devices/multi/groups/multiGroup.controller.js"
-			],
-			[
-				"selectgroup.step.html",
-				"src/components/devices/multi/groups/selectGroup.step.html"
-			],
-			[
-				"dete",
-				"src/components/devices/details/deviceDelete.modal.html"
-			],
-			[
-				"wizard",
-				"src/components/devices/groups/renameGroup.wizard.html"
-			],
-			[
-				"multigrou",
-				"src/components/devices/multi/groups/multiGroup.wizard.html"
-			],
-			[
-				"multidet",
-				"src/components/devices/multi/deviceMulti.controller.js"
-			],
-			[
-				"events",
-				"src/components/automations/events.service.js"
-			],
-			[
-				"automeve",
-				"src/components/automations/details/automationsEventsModule.controller.js"
-			],
-			[
-				"automationsactionsmodulecontroller",
-				"src/components/automations/details/automationsActionsModule.controller.js"
-			],
-			[
-				"automationseventsmodulecontroller",
-				"src/components/automations/details/automationsEventsModule.controller.js"
-			],
-			[
-				"selectprofile",
-				"src/components/devices/multi/profiles/selectProfile.step.html"
-			],
-			[
-				"automati",
-				"src/components/automations/details/automationsDetails.controller.js"
-			],
-			[
-				"devicede",
-				"src/components/devices/details/deviceDetails.controller.js"
-			],
-			[
-				"automa",
-				"src/components/automations/details/automationsActionsModule.controller.js"
-			],
-			[
-				"job",
-				"src/components/jobs/jobs.service.js"
-			],
-			[
-				"update",
-				"src/components/firmwares/update.step.html"
-			],
-			[
-				"confir",
-				"src/components/devices/profiles/confirm.step.html"
-			],
-			[
-				"renam",
-				"src/components/devices/groups/rename.step.html"
-			],
-			[
-				"rename.step.html",
-				"src/components/devices/groups/rename.step.html"
-			],
-			[
-				"rename",
-				"src/components/devices/groups/renameGroup.wizard.html"
-			],
-			[
-				"devicedetails",
-				"src/components/devices/details/deviceDetails.controller.js"
-			],
-			[
-				"info",
-				"src/components/devices/details/deviceInfoModule.controller.js"
-			],
-			[
-				"firmw",
-				"src/components/firmwares/firmwareUpdate.controller.js"
-			],
-			[
-				"automation",
-				"src/components/automations/details/automationsEventsModule.controller.js"
 			]
 		],
 		"width": 0.0
@@ -2581,7 +3019,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 265.0,
+	"side_bar_width": 260.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

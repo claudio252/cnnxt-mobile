@@ -1,10 +1,27 @@
 #map-view {
 
+  .list-instructions {
+      padding: 0px 25px;
+      // position: inherit;
+      width: 100%;
+      margin-bottom: 0px;
+
+      .icon {
+        font-size: 40px;
+      }
+    }
+
   .map-container {
-    height: 40%;
+    height: 45%;
     margin-bottom: 10px;
 
-    > #container {
+    > #directions-container {
+      background: #E99D40;
+      margin: 0px 25px;
+      height: 100%;
+    }
+
+    > #direction-container {
       background: #E99D40;
       margin: 0px 25px;
       height: 100%;

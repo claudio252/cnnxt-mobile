@@ -1,9 +1,26 @@
 <ion-view view-title="" id="map-view">
   <ion-content>
-    <img class="padding-header" src="img/global.png" />
+    <img class="padding-header" src="img/global.png" ng-click="goToMain()"/>
+    <div class="list-instructions instructions">
+      <div class="row">
+        <div class="col-10">
+          <i id="instructions_prev_button" class="icon ion-chevron-left" ng-click="previousInstructions()"></i>
+        </div>
+        <div class="col-80">
+          <!-- <div id="instructions_count" class="instructions"></div> -->
+          <!-- <img id="instructions_icon" class="instructions"></img> -->
+          <!-- <div id="instructions_brief" class="instructions"></div> -->
+          <div id="instructions_detail" class="instructions"></div>
+          <!-- <div id="instructions_time" class="instructions hidden"></div> -->
+        </div>
+        <div class="col-10">
+          <i id="instructions_next_button" class="icon ion-chevron-right" ng-click="nextInstructions()"></i>
+        </div>
+      </div>
+    </div>
     <div class="map-container">
       <!-- MAP CONTAINER -->
-      <div id="container"></div>
+      <div id="directions-container"></div>
     </div>
     <div class="padding-content">
       <div class="list">
@@ -13,11 +30,11 @@
       </div>
       <p>
         <h5>Start:</h5>
-        <h4>Visitor's Welcome Center</h4>
+        <h4>{{ origin.name }}</h4>
       </p>
       <p>
         <h5>Destination:</h5>
-        <h4>State of the Art Home</h4>
+        <h4>{{ destination.name }}</h4>
       </p>
       <button class="button button-block button-energized" ng-click="showOptions=!showOptions">Send PDF to Phone</button>
     </div>
