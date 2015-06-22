@@ -1,10 +1,9 @@
 /**
  * @ngdoc directive
- * @name map
- * @requires Attr2Options
+ * @name vg-map
  * @description
  *   Implementation of {@link MapController}
- *   Initialize a Google map within a `<div>` tag with given options and register events
+ *   Initialize a VisioGlobe map within a `<div>` tag with given options and register events
  *   It accepts children directives; marker, shape, or marker-clusterer
  *
  *   It initialize map, children tags, then emits message as soon as the action is done

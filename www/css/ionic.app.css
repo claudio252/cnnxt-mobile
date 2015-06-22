@@ -7742,6 +7742,11 @@ a.button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px; }
 
+.popover {
+  height: 180px;
+  width: 80%;
+  text-align: center; }
+
 #home-view .categories.list {
   width: 100%;
   z-index: 3; }

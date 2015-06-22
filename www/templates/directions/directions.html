@@ -1,0 +1,18 @@
+<ion-view view-title="" id="department-view">
+  <ion-content>
+    <img class="padding-header" src="img/global.png" ng-click="goToMain()"/>
+    <div class="container">
+      <vg-map vg-destination="destination.hotspot_map" vg-origin="origin.hotspot_map" vg-controls="true"></vg-map>
+      <!-- <vg-map vg-direction="destination"></vg-map> -->
+      <p>
+        <h5>Start:</h5>
+        <h4>{{ origin.name }}</h4>
+      </p>
+      <p>
+        <h5>Destination:</h5>
+        <h4>{{ destination.name }}</h4>
+      </p>
+      <button class="button button-block button-energized" ng-click="popover.show($event)">Send PDF to Phone</button>
+    </div>
+  </ion-content>
+</ion-view>

@@ -10,8 +10,8 @@ angular.module('cnnxtMobile.services', [])
         floor: categoryId
       };
 
-      // return Restangular.oneUrl('api').getList('', queryObj);
-      return Restangular.oneUrl('db').getList('');
+      return Restangular.oneUrl('api').getList('', queryObj);
+      // return Restangular.oneUrl('db').getList('');
     },
     getByDepartmentId: function (departmentId) {
       // URL is action=get_hotspots_smh&hotspot_id=123&type=department&hospital_id=9
@@ -22,8 +22,8 @@ angular.module('cnnxtMobile.services', [])
         hospital_id: '9' //For globe demo
       };
 
-      // return Restangular.oneUrl('api').getList('', queryObj);
-      return Restangular.oneUrl(1).get();
+      return Restangular.oneUrl('api').getList('', queryObj);
+      // return Restangular.oneUrl(departmentId).get();
     }
   };
 })
