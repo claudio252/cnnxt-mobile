@@ -11,7 +11,6 @@ angular.module('cnnxtMobile').run(function ($state, $rootScope) {
       console.log('GOING TO: ' + toName);
       console.log('FROM TO: ' + fromName);
       if (toName === 'dashboard.home' && fromName !== '') {
-        console.log('CLEAR VIEWS!!!');
         $rootScope.$broadcast('clear:view', toParams);
       }
     });

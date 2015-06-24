@@ -1,6 +1,4 @@
-// 'cnnxtMobile.services' is found in services.js
-// 'cnnxtMobile.controllers' is found in controllers.js
-angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 'cnnxtMobile.constants', 'cnnxtMobile.controllers', 'cnnxtMobile.services'])
+angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 'cnnxtMobile.constants', 'cnnxtMobile.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -17,7 +15,6 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
 })
 
 .config(function($stateProvider, $urlRouterProvider, RestangularProvider, CORE_API_ENDPOINT, CORE_DEMO_ENDPOINT, LOCAL_API_ENDPOINT) {
-
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
@@ -27,10 +24,7 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
       templateUrl: 'templates/dashboard.html'
     })
     .state('dashboard.home', {
-      url: '/home?destination',
-      params: {
-        destination: null
-      },
+      url: '/home',
       views: {
         'dashboard-view': {
           templateUrl: 'templates/home.html',
@@ -48,7 +42,7 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
       }
     })
     .state('dashboard.department', {
-      url: "/department/:department/details",
+      url: "/department/:departmentId/details",
       views: {
         'dashboard-view': {
           templateUrl: 'templates/department.html',
@@ -82,7 +76,10 @@ angular.module('cnnxtMobile', ['ionic', 'restangular', 'angular-md5', 'base64', 
     });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/dashboard/home');
+  $urlRouterProvider.otherwise(function ($injector) {
+    var $state = $injector.get('$state');
+    $state.go('dashboard.home');
+  });
 
   RestangularProvider.setBaseUrl(CORE_DEMO_ENDPOINT);
   // RestangularProvider.setBaseUrl(LOCAL_API_ENDPOINT);

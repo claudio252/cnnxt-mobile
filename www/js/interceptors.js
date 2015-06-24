@@ -28,7 +28,6 @@ angular.module('cnnxtMobile')
       var extractedData;
       // .. to look for getList operations
       if (operation === "getList") {
-        console.log('cleaning data');
         // .. and handle the data and meta data
         // Get the size
         var size = Object.keys(data).length;

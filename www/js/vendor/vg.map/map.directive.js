@@ -66,10 +66,11 @@ angular.module('cnnxtMobile').directive('vgMap', function ($compile) {
         var mapEl = $('#map-container')[0];
 
         var directionsEl = $('.map-directions')[0];
+        console.log(scope.vgControls);
         directionsEl.style.display = scope.vgControls?'block':'none';
 
         scope.map = new vg.mapviewer.web.Mapviewer();
-        scope.map.initialize(element.find('#map-container')[0], {
+        scope.map.initialize(mapEl, {
           path: mapOptions.path,
           initialFloorName: mapOptions.initialFloor
         }).done(function () {
@@ -87,7 +88,7 @@ angular.module('cnnxtMobile').directive('vgMap', function ($compile) {
           scope.$watch('vgDirection', function (newValue, oldValue, scope) {
             if (newValue) {
               var place = scope.getPlace(newValue);
-              scope.setActivePosition(place);
+              scope.goToFloor(place.vg.floor, place);
             }
           });
 
@@ -114,10 +115,12 @@ angular.module('cnnxtMobile').directive('vgMap', function ($compile) {
       }
 
       scope.nextInstruction = function () {
+        console.log('next instruction');
         scope.currentNavigation.displayNextInstruction();
       }
 
       scope.previousInstruction = function () {
+        console.log('previous instruction');
         scope.currentNavigation.displayPrevInstruction();
       }
 
@@ -168,7 +171,7 @@ angular.module('cnnxtMobile').directive('vgMap', function ($compile) {
 
           if (scope.currentRoute.isValid()) {
             scope.currentRoute.show();
-            scope.setPosition(origin);
+            scope.goToFloor(origin.vg.floor, origin);
 
             scope.currentNavigation = new MyNavigation(scope.map, pRouteData);
           } else {
@@ -181,7 +184,20 @@ angular.module('cnnxtMobile').directive('vgMap', function ($compile) {
         return scope.map.getPlace(placeId);
       }
 
+      scope.goToFloor = function (floorName, place) {
+        if (scope.map.getCurrentFloor() != floorName) {
+          scope.map.changeFloor(floorName).done(function () {
+            // updateActiveFloorLabel(floorname);
+            scope.setActivePosition(place);
+          });
+        }
+
+        scope.setActivePosition(place);
+      }
+
       if (element.find('#map-container').length === 0) {
+        // $('#map-container').remove();
+
         var mapOptions = {
           path: 'data.bundles/map.tiles.json',
           initialFloorName: '0'

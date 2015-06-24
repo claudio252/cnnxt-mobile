@@ -1,6 +1,6 @@
 #map-container {
 	width: 100%;
-	height: 250px;
+	height: calc(100vh - 149px);
 	background: #E99D40;
 
 	.map-directions {

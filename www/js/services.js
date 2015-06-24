@@ -11,7 +11,6 @@ angular.module('cnnxtMobile.services', [])
       };
 
       return Restangular.oneUrl('api').getList('', queryObj);
-      // return Restangular.oneUrl('db').getList('');
     },
     getByDepartmentId: function (departmentId) {
       // URL is action=get_hotspots_smh&hotspot_id=123&type=department&hospital_id=9
@@ -23,7 +22,6 @@ angular.module('cnnxtMobile.services', [])
       };
 
       return Restangular.oneUrl('api').getList('', queryObj);
-      // return Restangular.oneUrl(departmentId).get();
     }
   };
 })
